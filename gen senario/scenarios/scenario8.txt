@@ -1,3 +1,0 @@
-<<gender1>> (<<nationality1>>): "I wanted to ask if it would be possible to get your help on the presentation for tomorrow. I want to make sure my ideas are in line with your vision for the project."
-
-<<gender2>> (<<nationality2>>): "Of course, I’d be happy to help!"

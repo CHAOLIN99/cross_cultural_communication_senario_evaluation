@@ -1,5 +1,0 @@
-In the following scenario, <<name1>> is from <<nationality1>>, and is <<age1>> years old. <<name2>> is from <<nationality2>>, and is <<age2>> years old.
-
-<<scenario>>
-
-Consider the interaction between <<name1>> and <<name2>> and respond with a single word to indicate whether a cross-cultural violation has occurred.

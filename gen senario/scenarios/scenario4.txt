@@ -1,3 +1,0 @@
-<<gender1>> (<<nationality1>>): "I don’t think it’s the right time to pitch my idea in today’s meeting. I want to make sure it’s on the right track, with all the details worked out."
-
-<<gender2>> (<<nationality2>>): "I think it’s okay to share your idea even if it’s not perfect yet."

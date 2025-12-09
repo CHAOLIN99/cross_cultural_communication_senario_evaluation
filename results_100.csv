@@ -1,0 +1,1125 @@
+,prompt,secondary_prompt,gender1,gender2,age_group1,age_group2,nationality1,nationality2,scenario,result,misunderstanding_present,secondary_result,cultural_dimension
+0,"In the following scenario, the first person is Male, is from United States, and is 18-25 years old. The second person is Male, is from United States, and is 18-25 years old.
+
+Male (United States): ""I wanted to ask if it would be possible to get your help on the presentation for tomorrow. I want to make sure my ideas are in line with your vision for the project.""
+
+Male (United States): ""Of course, I’d be happy to help!""
+
+Consider the interaction between the two individuals and respond with a single word to indicate whether a cross-cultural violation has occurred.
+","Now consider the nature of the cross-cultural violation. Which cultural dimension would you say is responsible?
+",Male,Male,18-25,18-25,United States,United States,"<<gender1>> (<<nationality1>>): ""I wanted to ask if it would be possible to get your help on the presentation for tomorrow. I want to make sure my ideas are in line with your vision for the project.""
+
+<<gender2>> (<<nationality2>>): ""Of course, I’d be happy to help!""",No,False,N/A,none
+1,"In the following scenario, the first person is Male, is from United States, and is 18-25 years old. The second person is Male, is from United States, and is 18-25 years old.
+
+Male (United States): ""I looked over my contract, and I think there may be a mistake in the benefits sections.""
+
+Male (United States): ""Thanks for letting me know. I will have someone in HR look at it and see if there is anything that can be done.""
+
+Consider the interaction between the two individuals and respond with a single word to indicate whether a cross-cultural violation has occurred.
+","Now consider the nature of the cross-cultural violation. Which cultural dimension would you say is responsible?
+",Male,Male,18-25,18-25,United States,United States,"<<gender1>> (<<nationality1>>): ""I looked over my contract, and I think there may be a mistake in the benefits sections.""
+
+<<gender2>> (<<nationality2>>): ""Thanks for letting me know. I will have someone in HR look at it and see if there is anything that can be done.""",No,False,N/A,none
+2,"In the following scenario, the first person is Male, is from United States, and is 18-25 years old. The second person is Male, is from United States, and is 18-25 years old.
+
+Male (United States): ""I wanted to ask if it would be possible to get your help on the presentation for tomorrow. I want to make sure my ideas are in line with your vision for the project.""
+
+Male (United States): ""I don’t think that’s necessary. We really rely on you to come up with your own ideas and share them with us.""
+
+Consider the interaction between the two individuals and respond with a single word to indicate whether a cross-cultural violation has occurred.
+","Now consider the nature of the cross-cultural violation. Which cultural dimension would you say is responsible?
+",Male,Male,18-25,18-25,United States,United States,"<<gender1>> (<<nationality1>>): ""I wanted to ask if it would be possible to get your help on the presentation for tomorrow. I want to make sure my ideas are in line with your vision for the project.""
+
+<<gender2>> (<<nationality2>>): ""I don’t think that’s necessary. We really rely on you to come up with your own ideas and share them with us.""",No,False,Not applicable,none
+3,"In the following scenario, the first person is Male, is from United States, and is 18-25 years old. The second person is Male, is from United States, and is 18-25 years old.
+
+Male (United States): ""I don’t think it’s the right time to pitch my idea in today’s meeting. I want to make sure it’s on the right track, with all the details worked out.""
+
+Male (United States): ""I think it’s okay to share your idea even if it’s not perfect yet.""
+
+Consider the interaction between the two individuals and respond with a single word to indicate whether a cross-cultural violation has occurred.
+","Now consider the nature of the cross-cultural violation. Which cultural dimension would you say is responsible?
+",Male,Male,18-25,18-25,United States,United States,"<<gender1>> (<<nationality1>>): ""I don’t think it’s the right time to pitch my idea in today’s meeting. I want to make sure it’s on the right track, with all the details worked out.""
+
+<<gender2>> (<<nationality2>>): ""I think it’s okay to share your idea even if it’s not perfect yet.""",No,False,Not applicable,none
+4,"In the following scenario, the first person is Male, is from United States, and is 18-25 years old. The second person is Male, is from United States, and is 18-25 years old.
+
+Male (United States): ""I looked over the contract human resources sent me, and I think there may be a mistake in the benefits sections.""
+
+Male (United States): ""I trust the human resources supervisor’s expertise, and I won’t question the accuracy of their work.""
+
+Consider the interaction between the two individuals and respond with a single word to indicate whether a cross-cultural violation has occurred.
+","Now consider the nature of the cross-cultural violation. Which cultural dimension would you say is responsible?
+",Male,Male,18-25,18-25,United States,United States,"<<gender1>> (<<nationality1>>): ""I looked over the contract human resources sent me, and I think there may be a mistake in the benefits sections.""
+
+<<gender2>> (<<nationality2>>): ""I trust the human resources supervisor’s expertise, and I won’t question the accuracy of their work.""",No,False,Not applicable,none
+5,"In the following scenario, the first person is Male, is from United States, and is 18-25 years old. The second person is Male, is from United States, and is 18-25 years old.
+
+Male (United States): ""Hey, let’s sign up for the competition on Friday. I think we have the skills to win this.""
+
+Male (United States): ""I don’t think that’s a good idea. I’m a little unclear about the guidelines, so I am not sure whether our project is a good fit. Honestly, entering a project that’s not appropriate would just make us look unprofessional. If you want to take this seriously, we should spend more time looking for the best fit.""
+
+
+Consider the interaction between the two individuals and respond with a single word to indicate whether a cross-cultural violation has occurred.
+","Now consider the nature of the cross-cultural violation. Which cultural dimension would you say is responsible?
+",Male,Male,18-25,18-25,United States,United States,"<<gender1>> (<<nationality1>>): ""Hey, let’s sign up for the competition on Friday. I think we have the skills to win this.""
+
+<<gender2>> (<<nationality2>>): ""I don’t think that’s a good idea. I’m a little unclear about the guidelines, so I am not sure whether our project is a good fit. Honestly, entering a project that’s not appropriate would just make us look unprofessional. If you want to take this seriously, we should spend more time looking for the best fit.""
+",No,False,Not applicable,none
+6,"In the following scenario, the first person is Male, is from United States, and is 18-25 years old. The second person is Male, is from United States, and is 18-25 years old.
+
+Male (United States): ""I don’t think it’s the right time to pitch my idea in today’s meeting. I want to hear what others are thinking first to make sure I’m on the right track. I don’t want to risk embarrassing myself.""
+
+Male (United States): ""We’re just in the early stages. You shouldn’t be so worried about it.""
+
+Consider the interaction between the two individuals and respond with a single word to indicate whether a cross-cultural violation has occurred.
+","Now consider the nature of the cross-cultural violation. Which cultural dimension would you say is responsible?
+",Male,Male,18-25,18-25,United States,United States,"<<gender1>> (<<nationality1>>): ""I don’t think it’s the right time to pitch my idea in today’s meeting. I want to hear what others are thinking first to make sure I’m on the right track. I don’t want to risk embarrassing myself.""
+
+<<gender2>> (<<nationality2>>): ""We’re just in the early stages. You shouldn’t be so worried about it.""",No,False,Not applicable,none
+7,"In the following scenario, the first person is Male, is from United States, and is 18-25 years old. The second person is Male, is from United States, and is 18-25 years old.
+
+Male (United States): ""Hey, let's sign up for the competition on Friday. I think we have the skills to win this.""
+
+Male (United States): ""I like your confidence, but I think we should take some time to look at past projects and make sure ours is a good fit.""
+
+Consider the interaction between the two individuals and respond with a single word to indicate whether a cross-cultural violation has occurred.
+","Now consider the nature of the cross-cultural violation. Which cultural dimension would you say is responsible?
+",Male,Male,18-25,18-25,United States,United States,"<<gender1>> (<<nationality1>>): ""Hey, let's sign up for the competition on Friday. I think we have the skills to win this.""
+
+<<gender2>> (<<nationality2>>): ""I like your confidence, but I think we should take some time to look at past projects and make sure ours is a good fit.""",No,False,Not applicable,none
+8,"In the following scenario, the first person is Male, is from United States, and is 18-25 years old. The second person is Male, is from Mexico, and is 18-25 years old.
+
+Male (United States): ""I wanted to ask if it would be possible to get your help on the presentation for tomorrow. I want to make sure my ideas are in line with your vision for the project.""
+
+Male (Mexico): ""Of course, I’d be happy to help!""
+
+Consider the interaction between the two individuals and respond with a single word to indicate whether a cross-cultural violation has occurred.
+","Now consider the nature of the cross-cultural violation. Which cultural dimension would you say is responsible?
+",Male,Male,18-25,18-25,United States,Mexico,"<<gender1>> (<<nationality1>>): ""I wanted to ask if it would be possible to get your help on the presentation for tomorrow. I want to make sure my ideas are in line with your vision for the project.""
+
+<<gender2>> (<<nationality2>>): ""Of course, I’d be happy to help!""",No,False,Not applicable,none
+9,"In the following scenario, the first person is Male, is from United States, and is 18-25 years old. The second person is Male, is from Mexico, and is 18-25 years old.
+
+Male (United States): ""I looked over my contract, and I think there may be a mistake in the benefits sections.""
+
+Male (Mexico): ""Thanks for letting me know. I will have someone in HR look at it and see if there is anything that can be done.""
+
+Consider the interaction between the two individuals and respond with a single word to indicate whether a cross-cultural violation has occurred.
+","Now consider the nature of the cross-cultural violation. Which cultural dimension would you say is responsible?
+",Male,Male,18-25,18-25,United States,Mexico,"<<gender1>> (<<nationality1>>): ""I looked over my contract, and I think there may be a mistake in the benefits sections.""
+
+<<gender2>> (<<nationality2>>): ""Thanks for letting me know. I will have someone in HR look at it and see if there is anything that can be done.""",No,False,Not applicable,none
+10,"In the following scenario, the first person is Male, is from United States, and is 18-25 years old. The second person is Male, is from Mexico, and is 18-25 years old.
+
+Male (United States): ""I wanted to ask if it would be possible to get your help on the presentation for tomorrow. I want to make sure my ideas are in line with your vision for the project.""
+
+Male (Mexico): ""I don’t think that’s necessary. We really rely on you to come up with your own ideas and share them with us.""
+
+Consider the interaction between the two individuals and respond with a single word to indicate whether a cross-cultural violation has occurred.
+","Now consider the nature of the cross-cultural violation. Which cultural dimension would you say is responsible?
+",Male,Male,18-25,18-25,United States,Mexico,"<<gender1>> (<<nationality1>>): ""I wanted to ask if it would be possible to get your help on the presentation for tomorrow. I want to make sure my ideas are in line with your vision for the project.""
+
+<<gender2>> (<<nationality2>>): ""I don’t think that’s necessary. We really rely on you to come up with your own ideas and share them with us.""",No,False,Individualism,collectivism/individualism
+11,"In the following scenario, the first person is Male, is from United States, and is 18-25 years old. The second person is Male, is from Mexico, and is 18-25 years old.
+
+Male (United States): ""I don’t think it’s the right time to pitch my idea in today’s meeting. I want to make sure it’s on the right track, with all the details worked out.""
+
+Male (Mexico): ""I think it’s okay to share your idea even if it’s not perfect yet.""
+
+Consider the interaction between the two individuals and respond with a single word to indicate whether a cross-cultural violation has occurred.
+","Now consider the nature of the cross-cultural violation. Which cultural dimension would you say is responsible?
+",Male,Male,18-25,18-25,United States,Mexico,"<<gender1>> (<<nationality1>>): ""I don’t think it’s the right time to pitch my idea in today’s meeting. I want to make sure it’s on the right track, with all the details worked out.""
+
+<<gender2>> (<<nationality2>>): ""I think it’s okay to share your idea even if it’s not perfect yet.""",No,False,N/A,none
+12,"In the following scenario, the first person is Male, is from United States, and is 18-25 years old. The second person is Male, is from Mexico, and is 18-25 years old.
+
+Male (United States): ""I looked over the contract human resources sent me, and I think there may be a mistake in the benefits sections.""
+
+Male (Mexico): ""I trust the human resources supervisor’s expertise, and I won’t question the accuracy of their work.""
+
+Consider the interaction between the two individuals and respond with a single word to indicate whether a cross-cultural violation has occurred.
+","Now consider the nature of the cross-cultural violation. Which cultural dimension would you say is responsible?
+",Male,Male,18-25,18-25,United States,Mexico,"<<gender1>> (<<nationality1>>): ""I looked over the contract human resources sent me, and I think there may be a mistake in the benefits sections.""
+
+<<gender2>> (<<nationality2>>): ""I trust the human resources supervisor’s expertise, and I won’t question the accuracy of their work.""",No,False,Uncertainty Avoidance,uncertainty avoidance
+13,"In the following scenario, the first person is Male, is from United States, and is 18-25 years old. The second person is Male, is from Mexico, and is 18-25 years old.
+
+Male (United States): ""Hey, let’s sign up for the competition on Friday. I think we have the skills to win this.""
+
+Male (Mexico): ""I don’t think that’s a good idea. I’m a little unclear about the guidelines, so I am not sure whether our project is a good fit. Honestly, entering a project that’s not appropriate would just make us look unprofessional. If you want to take this seriously, we should spend more time looking for the best fit.""
+
+
+Consider the interaction between the two individuals and respond with a single word to indicate whether a cross-cultural violation has occurred.
+","Now consider the nature of the cross-cultural violation. Which cultural dimension would you say is responsible?
+",Male,Male,18-25,18-25,United States,Mexico,"<<gender1>> (<<nationality1>>): ""Hey, let’s sign up for the competition on Friday. I think we have the skills to win this.""
+
+<<gender2>> (<<nationality2>>): ""I don’t think that’s a good idea. I’m a little unclear about the guidelines, so I am not sure whether our project is a good fit. Honestly, entering a project that’s not appropriate would just make us look unprofessional. If you want to take this seriously, we should spend more time looking for the best fit.""
+",No,False,N/A,none
+14,"In the following scenario, the first person is Male, is from United States, and is 18-25 years old. The second person is Male, is from Mexico, and is 18-25 years old.
+
+Male (United States): ""I don’t think it’s the right time to pitch my idea in today’s meeting. I want to hear what others are thinking first to make sure I’m on the right track. I don’t want to risk embarrassing myself.""
+
+Male (Mexico): ""We’re just in the early stages. You shouldn’t be so worried about it.""
+
+Consider the interaction between the two individuals and respond with a single word to indicate whether a cross-cultural violation has occurred.
+","Now consider the nature of the cross-cultural violation. Which cultural dimension would you say is responsible?
+",Male,Male,18-25,18-25,United States,Mexico,"<<gender1>> (<<nationality1>>): ""I don’t think it’s the right time to pitch my idea in today’s meeting. I want to hear what others are thinking first to make sure I’m on the right track. I don’t want to risk embarrassing myself.""
+
+<<gender2>> (<<nationality2>>): ""We’re just in the early stages. You shouldn’t be so worried about it.""",No,False,Uncertainty Avoidance,uncertainty avoidance
+15,"In the following scenario, the first person is Male, is from United States, and is 18-25 years old. The second person is Male, is from Mexico, and is 18-25 years old.
+
+Male (United States): ""Hey, let's sign up for the competition on Friday. I think we have the skills to win this.""
+
+Male (Mexico): ""I like your confidence, but I think we should take some time to look at past projects and make sure ours is a good fit.""
+
+Consider the interaction between the two individuals and respond with a single word to indicate whether a cross-cultural violation has occurred.
+","Now consider the nature of the cross-cultural violation. Which cultural dimension would you say is responsible?
+",Male,Male,18-25,18-25,United States,Mexico,"<<gender1>> (<<nationality1>>): ""Hey, let's sign up for the competition on Friday. I think we have the skills to win this.""
+
+<<gender2>> (<<nationality2>>): ""I like your confidence, but I think we should take some time to look at past projects and make sure ours is a good fit.""",No,False,N/A,none
+16,"In the following scenario, the first person is Male, is from United States, and is 18-25 years old. The second person is Male, is from India, and is 18-25 years old.
+
+Male (United States): ""I wanted to ask if it would be possible to get your help on the presentation for tomorrow. I want to make sure my ideas are in line with your vision for the project.""
+
+Male (India): ""Of course, I’d be happy to help!""
+
+Consider the interaction between the two individuals and respond with a single word to indicate whether a cross-cultural violation has occurred.
+","Now consider the nature of the cross-cultural violation. Which cultural dimension would you say is responsible?
+",Male,Male,18-25,18-25,United States,India,"<<gender1>> (<<nationality1>>): ""I wanted to ask if it would be possible to get your help on the presentation for tomorrow. I want to make sure my ideas are in line with your vision for the project.""
+
+<<gender2>> (<<nationality2>>): ""Of course, I’d be happy to help!""",No,False,N/A,none
+17,"In the following scenario, the first person is Male, is from United States, and is 18-25 years old. The second person is Male, is from India, and is 18-25 years old.
+
+Male (United States): ""I looked over my contract, and I think there may be a mistake in the benefits sections.""
+
+Male (India): ""Thanks for letting me know. I will have someone in HR look at it and see if there is anything that can be done.""
+
+Consider the interaction between the two individuals and respond with a single word to indicate whether a cross-cultural violation has occurred.
+","Now consider the nature of the cross-cultural violation. Which cultural dimension would you say is responsible?
+",Male,Male,18-25,18-25,United States,India,"<<gender1>> (<<nationality1>>): ""I looked over my contract, and I think there may be a mistake in the benefits sections.""
+
+<<gender2>> (<<nationality2>>): ""Thanks for letting me know. I will have someone in HR look at it and see if there is anything that can be done.""",No,False,Not applicable,none
+18,"In the following scenario, the first person is Male, is from United States, and is 18-25 years old. The second person is Male, is from India, and is 18-25 years old.
+
+Male (United States): ""I wanted to ask if it would be possible to get your help on the presentation for tomorrow. I want to make sure my ideas are in line with your vision for the project.""
+
+Male (India): ""I don’t think that’s necessary. We really rely on you to come up with your own ideas and share them with us.""
+
+Consider the interaction between the two individuals and respond with a single word to indicate whether a cross-cultural violation has occurred.
+","Now consider the nature of the cross-cultural violation. Which cultural dimension would you say is responsible?
+",Male,Male,18-25,18-25,United States,India,"<<gender1>> (<<nationality1>>): ""I wanted to ask if it would be possible to get your help on the presentation for tomorrow. I want to make sure my ideas are in line with your vision for the project.""
+
+<<gender2>> (<<nationality2>>): ""I don’t think that’s necessary. We really rely on you to come up with your own ideas and share them with us.""",No,False,N/A,none
+19,"In the following scenario, the first person is Male, is from United States, and is 18-25 years old. The second person is Male, is from India, and is 18-25 years old.
+
+Male (United States): ""I don’t think it’s the right time to pitch my idea in today’s meeting. I want to make sure it’s on the right track, with all the details worked out.""
+
+Male (India): ""I think it’s okay to share your idea even if it’s not perfect yet.""
+
+Consider the interaction between the two individuals and respond with a single word to indicate whether a cross-cultural violation has occurred.
+","Now consider the nature of the cross-cultural violation. Which cultural dimension would you say is responsible?
+",Male,Male,18-25,18-25,United States,India,"<<gender1>> (<<nationality1>>): ""I don’t think it’s the right time to pitch my idea in today’s meeting. I want to make sure it’s on the right track, with all the details worked out.""
+
+<<gender2>> (<<nationality2>>): ""I think it’s okay to share your idea even if it’s not perfect yet.""",No,False,Uncertainty Avoidance,uncertainty avoidance
+20,"In the following scenario, the first person is Male, is from United States, and is 18-25 years old. The second person is Male, is from India, and is 18-25 years old.
+
+Male (United States): ""I looked over the contract human resources sent me, and I think there may be a mistake in the benefits sections.""
+
+Male (India): ""I trust the human resources supervisor’s expertise, and I won’t question the accuracy of their work.""
+
+Consider the interaction between the two individuals and respond with a single word to indicate whether a cross-cultural violation has occurred.
+","Now consider the nature of the cross-cultural violation. Which cultural dimension would you say is responsible?
+",Male,Male,18-25,18-25,United States,India,"<<gender1>> (<<nationality1>>): ""I looked over the contract human resources sent me, and I think there may be a mistake in the benefits sections.""
+
+<<gender2>> (<<nationality2>>): ""I trust the human resources supervisor’s expertise, and I won’t question the accuracy of their work.""",No,False,N/A,none
+21,"In the following scenario, the first person is Male, is from United States, and is 18-25 years old. The second person is Male, is from India, and is 18-25 years old.
+
+Male (United States): ""Hey, let’s sign up for the competition on Friday. I think we have the skills to win this.""
+
+Male (India): ""I don’t think that’s a good idea. I’m a little unclear about the guidelines, so I am not sure whether our project is a good fit. Honestly, entering a project that’s not appropriate would just make us look unprofessional. If you want to take this seriously, we should spend more time looking for the best fit.""
+
+
+Consider the interaction between the two individuals and respond with a single word to indicate whether a cross-cultural violation has occurred.
+","Now consider the nature of the cross-cultural violation. Which cultural dimension would you say is responsible?
+",Male,Male,18-25,18-25,United States,India,"<<gender1>> (<<nationality1>>): ""Hey, let’s sign up for the competition on Friday. I think we have the skills to win this.""
+
+<<gender2>> (<<nationality2>>): ""I don’t think that’s a good idea. I’m a little unclear about the guidelines, so I am not sure whether our project is a good fit. Honestly, entering a project that’s not appropriate would just make us look unprofessional. If you want to take this seriously, we should spend more time looking for the best fit.""
+",No,False,N/A,none
+22,"In the following scenario, the first person is Male, is from United States, and is 18-25 years old. The second person is Male, is from India, and is 18-25 years old.
+
+Male (United States): ""I don’t think it’s the right time to pitch my idea in today’s meeting. I want to hear what others are thinking first to make sure I’m on the right track. I don’t want to risk embarrassing myself.""
+
+Male (India): ""We’re just in the early stages. You shouldn’t be so worried about it.""
+
+Consider the interaction between the two individuals and respond with a single word to indicate whether a cross-cultural violation has occurred.
+","Now consider the nature of the cross-cultural violation. Which cultural dimension would you say is responsible?
+",Male,Male,18-25,18-25,United States,India,"<<gender1>> (<<nationality1>>): ""I don’t think it’s the right time to pitch my idea in today’s meeting. I want to hear what others are thinking first to make sure I’m on the right track. I don’t want to risk embarrassing myself.""
+
+<<gender2>> (<<nationality2>>): ""We’re just in the early stages. You shouldn’t be so worried about it.""",No,False,Uncertainty Avoidance,uncertainty avoidance
+23,"In the following scenario, the first person is Male, is from United States, and is 18-25 years old. The second person is Male, is from India, and is 18-25 years old.
+
+Male (United States): ""Hey, let's sign up for the competition on Friday. I think we have the skills to win this.""
+
+Male (India): ""I like your confidence, but I think we should take some time to look at past projects and make sure ours is a good fit.""
+
+Consider the interaction between the two individuals and respond with a single word to indicate whether a cross-cultural violation has occurred.
+","Now consider the nature of the cross-cultural violation. Which cultural dimension would you say is responsible?
+",Male,Male,18-25,18-25,United States,India,"<<gender1>> (<<nationality1>>): ""Hey, let's sign up for the competition on Friday. I think we have the skills to win this.""
+
+<<gender2>> (<<nationality2>>): ""I like your confidence, but I think we should take some time to look at past projects and make sure ours is a good fit.""",No,False,Not applicable,none
+24,"In the following scenario, the first person is Male, is from United States, and is 18-25 years old. The second person is Male, is from Germany, and is 18-25 years old.
+
+Male (United States): ""I wanted to ask if it would be possible to get your help on the presentation for tomorrow. I want to make sure my ideas are in line with your vision for the project.""
+
+Male (Germany): ""Of course, I’d be happy to help!""
+
+Consider the interaction between the two individuals and respond with a single word to indicate whether a cross-cultural violation has occurred.
+","Now consider the nature of the cross-cultural violation. Which cultural dimension would you say is responsible?
+",Male,Male,18-25,18-25,United States,Germany,"<<gender1>> (<<nationality1>>): ""I wanted to ask if it would be possible to get your help on the presentation for tomorrow. I want to make sure my ideas are in line with your vision for the project.""
+
+<<gender2>> (<<nationality2>>): ""Of course, I’d be happy to help!""",No,False,Not applicable,none
+25,"In the following scenario, the first person is Male, is from United States, and is 18-25 years old. The second person is Male, is from Germany, and is 18-25 years old.
+
+Male (United States): ""I looked over my contract, and I think there may be a mistake in the benefits sections.""
+
+Male (Germany): ""Thanks for letting me know. I will have someone in HR look at it and see if there is anything that can be done.""
+
+Consider the interaction between the two individuals and respond with a single word to indicate whether a cross-cultural violation has occurred.
+","Now consider the nature of the cross-cultural violation. Which cultural dimension would you say is responsible?
+",Male,Male,18-25,18-25,United States,Germany,"<<gender1>> (<<nationality1>>): ""I looked over my contract, and I think there may be a mistake in the benefits sections.""
+
+<<gender2>> (<<nationality2>>): ""Thanks for letting me know. I will have someone in HR look at it and see if there is anything that can be done.""",No,False,Not applicable,none
+26,"In the following scenario, the first person is Male, is from United States, and is 18-25 years old. The second person is Male, is from Germany, and is 18-25 years old.
+
+Male (United States): ""I wanted to ask if it would be possible to get your help on the presentation for tomorrow. I want to make sure my ideas are in line with your vision for the project.""
+
+Male (Germany): ""I don’t think that’s necessary. We really rely on you to come up with your own ideas and share them with us.""
+
+Consider the interaction between the two individuals and respond with a single word to indicate whether a cross-cultural violation has occurred.
+","Now consider the nature of the cross-cultural violation. Which cultural dimension would you say is responsible?
+",Male,Male,18-25,18-25,United States,Germany,"<<gender1>> (<<nationality1>>): ""I wanted to ask if it would be possible to get your help on the presentation for tomorrow. I want to make sure my ideas are in line with your vision for the project.""
+
+<<gender2>> (<<nationality2>>): ""I don’t think that’s necessary. We really rely on you to come up with your own ideas and share them with us.""",No,False,Individualism,collectivism/individualism
+27,"In the following scenario, the first person is Male, is from United States, and is 18-25 years old. The second person is Male, is from Germany, and is 18-25 years old.
+
+Male (United States): ""I don’t think it’s the right time to pitch my idea in today’s meeting. I want to make sure it’s on the right track, with all the details worked out.""
+
+Male (Germany): ""I think it’s okay to share your idea even if it’s not perfect yet.""
+
+Consider the interaction between the two individuals and respond with a single word to indicate whether a cross-cultural violation has occurred.
+","Now consider the nature of the cross-cultural violation. Which cultural dimension would you say is responsible?
+",Male,Male,18-25,18-25,United States,Germany,"<<gender1>> (<<nationality1>>): ""I don’t think it’s the right time to pitch my idea in today’s meeting. I want to make sure it’s on the right track, with all the details worked out.""
+
+<<gender2>> (<<nationality2>>): ""I think it’s okay to share your idea even if it’s not perfect yet.""",No,False,Uncertainty Avoidance,uncertainty avoidance
+28,"In the following scenario, the first person is Male, is from United States, and is 18-25 years old. The second person is Male, is from Germany, and is 18-25 years old.
+
+Male (United States): ""I looked over the contract human resources sent me, and I think there may be a mistake in the benefits sections.""
+
+Male (Germany): ""I trust the human resources supervisor’s expertise, and I won’t question the accuracy of their work.""
+
+Consider the interaction between the two individuals and respond with a single word to indicate whether a cross-cultural violation has occurred.
+","Now consider the nature of the cross-cultural violation. Which cultural dimension would you say is responsible?
+",Male,Male,18-25,18-25,United States,Germany,"<<gender1>> (<<nationality1>>): ""I looked over the contract human resources sent me, and I think there may be a mistake in the benefits sections.""
+
+<<gender2>> (<<nationality2>>): ""I trust the human resources supervisor’s expertise, and I won’t question the accuracy of their work.""",No,False,Uncertainty Avoidance,uncertainty avoidance
+29,"In the following scenario, the first person is Male, is from United States, and is 18-25 years old. The second person is Male, is from Germany, and is 18-25 years old.
+
+Male (United States): ""Hey, let’s sign up for the competition on Friday. I think we have the skills to win this.""
+
+Male (Germany): ""I don’t think that’s a good idea. I’m a little unclear about the guidelines, so I am not sure whether our project is a good fit. Honestly, entering a project that’s not appropriate would just make us look unprofessional. If you want to take this seriously, we should spend more time looking for the best fit.""
+
+
+Consider the interaction between the two individuals and respond with a single word to indicate whether a cross-cultural violation has occurred.
+","Now consider the nature of the cross-cultural violation. Which cultural dimension would you say is responsible?
+",Male,Male,18-25,18-25,United States,Germany,"<<gender1>> (<<nationality1>>): ""Hey, let’s sign up for the competition on Friday. I think we have the skills to win this.""
+
+<<gender2>> (<<nationality2>>): ""I don’t think that’s a good idea. I’m a little unclear about the guidelines, so I am not sure whether our project is a good fit. Honestly, entering a project that’s not appropriate would just make us look unprofessional. If you want to take this seriously, we should spend more time looking for the best fit.""
+",No,False,Not applicable,none
+30,"In the following scenario, the first person is Male, is from United States, and is 18-25 years old. The second person is Male, is from Germany, and is 18-25 years old.
+
+Male (United States): ""I don’t think it’s the right time to pitch my idea in today’s meeting. I want to hear what others are thinking first to make sure I’m on the right track. I don’t want to risk embarrassing myself.""
+
+Male (Germany): ""We’re just in the early stages. You shouldn’t be so worried about it.""
+
+Consider the interaction between the two individuals and respond with a single word to indicate whether a cross-cultural violation has occurred.
+","Now consider the nature of the cross-cultural violation. Which cultural dimension would you say is responsible?
+",Male,Male,18-25,18-25,United States,Germany,"<<gender1>> (<<nationality1>>): ""I don’t think it’s the right time to pitch my idea in today’s meeting. I want to hear what others are thinking first to make sure I’m on the right track. I don’t want to risk embarrassing myself.""
+
+<<gender2>> (<<nationality2>>): ""We’re just in the early stages. You shouldn’t be so worried about it.""",No,False,Uncertainty Avoidance,uncertainty avoidance
+31,"In the following scenario, the first person is Male, is from United States, and is 18-25 years old. The second person is Male, is from Germany, and is 18-25 years old.
+
+Male (United States): ""Hey, let's sign up for the competition on Friday. I think we have the skills to win this.""
+
+Male (Germany): ""I like your confidence, but I think we should take some time to look at past projects and make sure ours is a good fit.""
+
+Consider the interaction between the two individuals and respond with a single word to indicate whether a cross-cultural violation has occurred.
+","Now consider the nature of the cross-cultural violation. Which cultural dimension would you say is responsible?
+",Male,Male,18-25,18-25,United States,Germany,"<<gender1>> (<<nationality1>>): ""Hey, let's sign up for the competition on Friday. I think we have the skills to win this.""
+
+<<gender2>> (<<nationality2>>): ""I like your confidence, but I think we should take some time to look at past projects and make sure ours is a good fit.""",No,False,Not applicable,none
+32,"In the following scenario, the first person is Male, is from Mexico, and is 18-25 years old. The second person is Male, is from United States, and is 18-25 years old.
+
+Male (Mexico): ""I wanted to ask if it would be possible to get your help on the presentation for tomorrow. I want to make sure my ideas are in line with your vision for the project.""
+
+Male (United States): ""Of course, I’d be happy to help!""
+
+Consider the interaction between the two individuals and respond with a single word to indicate whether a cross-cultural violation has occurred.
+","Now consider the nature of the cross-cultural violation. Which cultural dimension would you say is responsible?
+",Male,Male,18-25,18-25,Mexico,United States,"<<gender1>> (<<nationality1>>): ""I wanted to ask if it would be possible to get your help on the presentation for tomorrow. I want to make sure my ideas are in line with your vision for the project.""
+
+<<gender2>> (<<nationality2>>): ""Of course, I’d be happy to help!""",No,False,N/A,none
+33,"In the following scenario, the first person is Male, is from Mexico, and is 18-25 years old. The second person is Male, is from United States, and is 18-25 years old.
+
+Male (Mexico): ""I looked over my contract, and I think there may be a mistake in the benefits sections.""
+
+Male (United States): ""Thanks for letting me know. I will have someone in HR look at it and see if there is anything that can be done.""
+
+Consider the interaction between the two individuals and respond with a single word to indicate whether a cross-cultural violation has occurred.
+","Now consider the nature of the cross-cultural violation. Which cultural dimension would you say is responsible?
+",Male,Male,18-25,18-25,Mexico,United States,"<<gender1>> (<<nationality1>>): ""I looked over my contract, and I think there may be a mistake in the benefits sections.""
+
+<<gender2>> (<<nationality2>>): ""Thanks for letting me know. I will have someone in HR look at it and see if there is anything that can be done.""",No,False,Not Applicable,none
+34,"In the following scenario, the first person is Male, is from Mexico, and is 18-25 years old. The second person is Male, is from United States, and is 18-25 years old.
+
+Male (Mexico): ""I wanted to ask if it would be possible to get your help on the presentation for tomorrow. I want to make sure my ideas are in line with your vision for the project.""
+
+Male (United States): ""I don’t think that’s necessary. We really rely on you to come up with your own ideas and share them with us.""
+
+Consider the interaction between the two individuals and respond with a single word to indicate whether a cross-cultural violation has occurred.
+","Now consider the nature of the cross-cultural violation. Which cultural dimension would you say is responsible?
+",Male,Male,18-25,18-25,Mexico,United States,"<<gender1>> (<<nationality1>>): ""I wanted to ask if it would be possible to get your help on the presentation for tomorrow. I want to make sure my ideas are in line with your vision for the project.""
+
+<<gender2>> (<<nationality2>>): ""I don’t think that’s necessary. We really rely on you to come up with your own ideas and share them with us.""",No,False,Individualism,collectivism/individualism
+35,"In the following scenario, the first person is Male, is from Mexico, and is 18-25 years old. The second person is Male, is from United States, and is 18-25 years old.
+
+Male (Mexico): ""I don’t think it’s the right time to pitch my idea in today’s meeting. I want to make sure it’s on the right track, with all the details worked out.""
+
+Male (United States): ""I think it’s okay to share your idea even if it’s not perfect yet.""
+
+Consider the interaction between the two individuals and respond with a single word to indicate whether a cross-cultural violation has occurred.
+","Now consider the nature of the cross-cultural violation. Which cultural dimension would you say is responsible?
+",Male,Male,18-25,18-25,Mexico,United States,"<<gender1>> (<<nationality1>>): ""I don’t think it’s the right time to pitch my idea in today’s meeting. I want to make sure it’s on the right track, with all the details worked out.""
+
+<<gender2>> (<<nationality2>>): ""I think it’s okay to share your idea even if it’s not perfect yet.""",No,False,Uncertainty Avoidance,uncertainty avoidance
+36,"In the following scenario, the first person is Male, is from Mexico, and is 18-25 years old. The second person is Male, is from United States, and is 18-25 years old.
+
+Male (Mexico): ""I looked over the contract human resources sent me, and I think there may be a mistake in the benefits sections.""
+
+Male (United States): ""I trust the human resources supervisor’s expertise, and I won’t question the accuracy of their work.""
+
+Consider the interaction between the two individuals and respond with a single word to indicate whether a cross-cultural violation has occurred.
+","Now consider the nature of the cross-cultural violation. Which cultural dimension would you say is responsible?
+",Male,Male,18-25,18-25,Mexico,United States,"<<gender1>> (<<nationality1>>): ""I looked over the contract human resources sent me, and I think there may be a mistake in the benefits sections.""
+
+<<gender2>> (<<nationality2>>): ""I trust the human resources supervisor’s expertise, and I won’t question the accuracy of their work.""",No,False,There has been no cross-cultural violation in the given scenario.,none
+37,"In the following scenario, the first person is Male, is from Mexico, and is 18-25 years old. The second person is Male, is from United States, and is 18-25 years old.
+
+Male (Mexico): ""Hey, let’s sign up for the competition on Friday. I think we have the skills to win this.""
+
+Male (United States): ""I don’t think that’s a good idea. I’m a little unclear about the guidelines, so I am not sure whether our project is a good fit. Honestly, entering a project that’s not appropriate would just make us look unprofessional. If you want to take this seriously, we should spend more time looking for the best fit.""
+
+
+Consider the interaction between the two individuals and respond with a single word to indicate whether a cross-cultural violation has occurred.
+","Now consider the nature of the cross-cultural violation. Which cultural dimension would you say is responsible?
+",Male,Male,18-25,18-25,Mexico,United States,"<<gender1>> (<<nationality1>>): ""Hey, let’s sign up for the competition on Friday. I think we have the skills to win this.""
+
+<<gender2>> (<<nationality2>>): ""I don’t think that’s a good idea. I’m a little unclear about the guidelines, so I am not sure whether our project is a good fit. Honestly, entering a project that’s not appropriate would just make us look unprofessional. If you want to take this seriously, we should spend more time looking for the best fit.""
+",No,False,Uncertainty Avoidance,uncertainty avoidance
+38,"In the following scenario, the first person is Male, is from Mexico, and is 18-25 years old. The second person is Male, is from United States, and is 18-25 years old.
+
+Male (Mexico): ""I don’t think it’s the right time to pitch my idea in today’s meeting. I want to hear what others are thinking first to make sure I’m on the right track. I don’t want to risk embarrassing myself.""
+
+Male (United States): ""We’re just in the early stages. You shouldn’t be so worried about it.""
+
+Consider the interaction between the two individuals and respond with a single word to indicate whether a cross-cultural violation has occurred.
+","Now consider the nature of the cross-cultural violation. Which cultural dimension would you say is responsible?
+",Male,Male,18-25,18-25,Mexico,United States,"<<gender1>> (<<nationality1>>): ""I don’t think it’s the right time to pitch my idea in today’s meeting. I want to hear what others are thinking first to make sure I’m on the right track. I don’t want to risk embarrassing myself.""
+
+<<gender2>> (<<nationality2>>): ""We’re just in the early stages. You shouldn’t be so worried about it.""",No,False,Uncertainty Avoidance,uncertainty avoidance
+39,"In the following scenario, the first person is Male, is from Mexico, and is 18-25 years old. The second person is Male, is from United States, and is 18-25 years old.
+
+Male (Mexico): ""Hey, let's sign up for the competition on Friday. I think we have the skills to win this.""
+
+Male (United States): ""I like your confidence, but I think we should take some time to look at past projects and make sure ours is a good fit.""
+
+Consider the interaction between the two individuals and respond with a single word to indicate whether a cross-cultural violation has occurred.
+","Now consider the nature of the cross-cultural violation. Which cultural dimension would you say is responsible?
+",Male,Male,18-25,18-25,Mexico,United States,"<<gender1>> (<<nationality1>>): ""Hey, let's sign up for the competition on Friday. I think we have the skills to win this.""
+
+<<gender2>> (<<nationality2>>): ""I like your confidence, but I think we should take some time to look at past projects and make sure ours is a good fit.""",No,False,N/A,none
+40,"In the following scenario, the first person is Male, is from Mexico, and is 18-25 years old. The second person is Male, is from Mexico, and is 18-25 years old.
+
+Male (Mexico): ""I wanted to ask if it would be possible to get your help on the presentation for tomorrow. I want to make sure my ideas are in line with your vision for the project.""
+
+Male (Mexico): ""Of course, I’d be happy to help!""
+
+Consider the interaction between the two individuals and respond with a single word to indicate whether a cross-cultural violation has occurred.
+","Now consider the nature of the cross-cultural violation. Which cultural dimension would you say is responsible?
+",Male,Male,18-25,18-25,Mexico,Mexico,"<<gender1>> (<<nationality1>>): ""I wanted to ask if it would be possible to get your help on the presentation for tomorrow. I want to make sure my ideas are in line with your vision for the project.""
+
+<<gender2>> (<<nationality2>>): ""Of course, I’d be happy to help!""",No,False,Not applicable,none
+41,"In the following scenario, the first person is Male, is from Mexico, and is 18-25 years old. The second person is Male, is from Mexico, and is 18-25 years old.
+
+Male (Mexico): ""I looked over my contract, and I think there may be a mistake in the benefits sections.""
+
+Male (Mexico): ""Thanks for letting me know. I will have someone in HR look at it and see if there is anything that can be done.""
+
+Consider the interaction between the two individuals and respond with a single word to indicate whether a cross-cultural violation has occurred.
+","Now consider the nature of the cross-cultural violation. Which cultural dimension would you say is responsible?
+",Male,Male,18-25,18-25,Mexico,Mexico,"<<gender1>> (<<nationality1>>): ""I looked over my contract, and I think there may be a mistake in the benefits sections.""
+
+<<gender2>> (<<nationality2>>): ""Thanks for letting me know. I will have someone in HR look at it and see if there is anything that can be done.""",No,False,Not Applicable,none
+42,"In the following scenario, the first person is Male, is from Mexico, and is 18-25 years old. The second person is Male, is from Mexico, and is 18-25 years old.
+
+Male (Mexico): ""I wanted to ask if it would be possible to get your help on the presentation for tomorrow. I want to make sure my ideas are in line with your vision for the project.""
+
+Male (Mexico): ""I don’t think that’s necessary. We really rely on you to come up with your own ideas and share them with us.""
+
+Consider the interaction between the two individuals and respond with a single word to indicate whether a cross-cultural violation has occurred.
+","Now consider the nature of the cross-cultural violation. Which cultural dimension would you say is responsible?
+",Male,Male,18-25,18-25,Mexico,Mexico,"<<gender1>> (<<nationality1>>): ""I wanted to ask if it would be possible to get your help on the presentation for tomorrow. I want to make sure my ideas are in line with your vision for the project.""
+
+<<gender2>> (<<nationality2>>): ""I don’t think that’s necessary. We really rely on you to come up with your own ideas and share them with us.""",No,False,Not Applicable,none
+43,"In the following scenario, the first person is Male, is from Mexico, and is 18-25 years old. The second person is Male, is from Mexico, and is 18-25 years old.
+
+Male (Mexico): ""I don’t think it’s the right time to pitch my idea in today’s meeting. I want to make sure it’s on the right track, with all the details worked out.""
+
+Male (Mexico): ""I think it’s okay to share your idea even if it’s not perfect yet.""
+
+Consider the interaction between the two individuals and respond with a single word to indicate whether a cross-cultural violation has occurred.
+","Now consider the nature of the cross-cultural violation. Which cultural dimension would you say is responsible?
+",Male,Male,18-25,18-25,Mexico,Mexico,"<<gender1>> (<<nationality1>>): ""I don’t think it’s the right time to pitch my idea in today’s meeting. I want to make sure it’s on the right track, with all the details worked out.""
+
+<<gender2>> (<<nationality2>>): ""I think it’s okay to share your idea even if it’s not perfect yet.""",No,False,Not applicable,none
+44,"In the following scenario, the first person is Male, is from Mexico, and is 18-25 years old. The second person is Male, is from Mexico, and is 18-25 years old.
+
+Male (Mexico): ""I looked over the contract human resources sent me, and I think there may be a mistake in the benefits sections.""
+
+Male (Mexico): ""I trust the human resources supervisor’s expertise, and I won’t question the accuracy of their work.""
+
+Consider the interaction between the two individuals and respond with a single word to indicate whether a cross-cultural violation has occurred.
+","Now consider the nature of the cross-cultural violation. Which cultural dimension would you say is responsible?
+",Male,Male,18-25,18-25,Mexico,Mexico,"<<gender1>> (<<nationality1>>): ""I looked over the contract human resources sent me, and I think there may be a mistake in the benefits sections.""
+
+<<gender2>> (<<nationality2>>): ""I trust the human resources supervisor’s expertise, and I won’t question the accuracy of their work.""",No,False,There is no cross-cultural violation in this scenario.,none
+45,"In the following scenario, the first person is Male, is from Mexico, and is 18-25 years old. The second person is Male, is from Mexico, and is 18-25 years old.
+
+Male (Mexico): ""Hey, let’s sign up for the competition on Friday. I think we have the skills to win this.""
+
+Male (Mexico): ""I don’t think that’s a good idea. I’m a little unclear about the guidelines, so I am not sure whether our project is a good fit. Honestly, entering a project that’s not appropriate would just make us look unprofessional. If you want to take this seriously, we should spend more time looking for the best fit.""
+
+
+Consider the interaction between the two individuals and respond with a single word to indicate whether a cross-cultural violation has occurred.
+","Now consider the nature of the cross-cultural violation. Which cultural dimension would you say is responsible?
+",Male,Male,18-25,18-25,Mexico,Mexico,"<<gender1>> (<<nationality1>>): ""Hey, let’s sign up for the competition on Friday. I think we have the skills to win this.""
+
+<<gender2>> (<<nationality2>>): ""I don’t think that’s a good idea. I’m a little unclear about the guidelines, so I am not sure whether our project is a good fit. Honestly, entering a project that’s not appropriate would just make us look unprofessional. If you want to take this seriously, we should spend more time looking for the best fit.""
+",No,False,Not applicable,none
+46,"In the following scenario, the first person is Male, is from Mexico, and is 18-25 years old. The second person is Male, is from Mexico, and is 18-25 years old.
+
+Male (Mexico): ""I don’t think it’s the right time to pitch my idea in today’s meeting. I want to hear what others are thinking first to make sure I’m on the right track. I don’t want to risk embarrassing myself.""
+
+Male (Mexico): ""We’re just in the early stages. You shouldn’t be so worried about it.""
+
+Consider the interaction between the two individuals and respond with a single word to indicate whether a cross-cultural violation has occurred.
+","Now consider the nature of the cross-cultural violation. Which cultural dimension would you say is responsible?
+",Male,Male,18-25,18-25,Mexico,Mexico,"<<gender1>> (<<nationality1>>): ""I don’t think it’s the right time to pitch my idea in today’s meeting. I want to hear what others are thinking first to make sure I’m on the right track. I don’t want to risk embarrassing myself.""
+
+<<gender2>> (<<nationality2>>): ""We’re just in the early stages. You shouldn’t be so worried about it.""",No,False,Not applicable,none
+47,"In the following scenario, the first person is Male, is from Mexico, and is 18-25 years old. The second person is Male, is from Mexico, and is 18-25 years old.
+
+Male (Mexico): ""Hey, let's sign up for the competition on Friday. I think we have the skills to win this.""
+
+Male (Mexico): ""I like your confidence, but I think we should take some time to look at past projects and make sure ours is a good fit.""
+
+Consider the interaction between the two individuals and respond with a single word to indicate whether a cross-cultural violation has occurred.
+","Now consider the nature of the cross-cultural violation. Which cultural dimension would you say is responsible?
+",Male,Male,18-25,18-25,Mexico,Mexico,"<<gender1>> (<<nationality1>>): ""Hey, let's sign up for the competition on Friday. I think we have the skills to win this.""
+
+<<gender2>> (<<nationality2>>): ""I like your confidence, but I think we should take some time to look at past projects and make sure ours is a good fit.""",No,False,Not applicable,none
+48,"In the following scenario, the first person is Male, is from Mexico, and is 18-25 years old. The second person is Male, is from India, and is 18-25 years old.
+
+Male (Mexico): ""I wanted to ask if it would be possible to get your help on the presentation for tomorrow. I want to make sure my ideas are in line with your vision for the project.""
+
+Male (India): ""Of course, I’d be happy to help!""
+
+Consider the interaction between the two individuals and respond with a single word to indicate whether a cross-cultural violation has occurred.
+","Now consider the nature of the cross-cultural violation. Which cultural dimension would you say is responsible?
+",Male,Male,18-25,18-25,Mexico,India,"<<gender1>> (<<nationality1>>): ""I wanted to ask if it would be possible to get your help on the presentation for tomorrow. I want to make sure my ideas are in line with your vision for the project.""
+
+<<gender2>> (<<nationality2>>): ""Of course, I’d be happy to help!""",No,False,N/A,none
+49,"In the following scenario, the first person is Male, is from Mexico, and is 18-25 years old. The second person is Male, is from India, and is 18-25 years old.
+
+Male (Mexico): ""I looked over my contract, and I think there may be a mistake in the benefits sections.""
+
+Male (India): ""Thanks for letting me know. I will have someone in HR look at it and see if there is anything that can be done.""
+
+Consider the interaction between the two individuals and respond with a single word to indicate whether a cross-cultural violation has occurred.
+","Now consider the nature of the cross-cultural violation. Which cultural dimension would you say is responsible?
+",Male,Male,18-25,18-25,Mexico,India,"<<gender1>> (<<nationality1>>): ""I looked over my contract, and I think there may be a mistake in the benefits sections.""
+
+<<gender2>> (<<nationality2>>): ""Thanks for letting me know. I will have someone in HR look at it and see if there is anything that can be done.""",No,False,Not applicable,none
+50,"In the following scenario, the first person is Male, is from Mexico, and is 18-25 years old. The second person is Male, is from India, and is 18-25 years old.
+
+Male (Mexico): ""I wanted to ask if it would be possible to get your help on the presentation for tomorrow. I want to make sure my ideas are in line with your vision for the project.""
+
+Male (India): ""I don’t think that’s necessary. We really rely on you to come up with your own ideas and share them with us.""
+
+Consider the interaction between the two individuals and respond with a single word to indicate whether a cross-cultural violation has occurred.
+","Now consider the nature of the cross-cultural violation. Which cultural dimension would you say is responsible?
+",Male,Male,18-25,18-25,Mexico,India,"<<gender1>> (<<nationality1>>): ""I wanted to ask if it would be possible to get your help on the presentation for tomorrow. I want to make sure my ideas are in line with your vision for the project.""
+
+<<gender2>> (<<nationality2>>): ""I don’t think that’s necessary. We really rely on you to come up with your own ideas and share them with us.""",No,False,There's no mentioned cross-cultural violation in the given scenario.,none
+51,"In the following scenario, the first person is Male, is from Mexico, and is 18-25 years old. The second person is Male, is from India, and is 18-25 years old.
+
+Male (Mexico): ""I don’t think it’s the right time to pitch my idea in today’s meeting. I want to make sure it’s on the right track, with all the details worked out.""
+
+Male (India): ""I think it’s okay to share your idea even if it’s not perfect yet.""
+
+Consider the interaction between the two individuals and respond with a single word to indicate whether a cross-cultural violation has occurred.
+","Now consider the nature of the cross-cultural violation. Which cultural dimension would you say is responsible?
+",Male,Male,18-25,18-25,Mexico,India,"<<gender1>> (<<nationality1>>): ""I don’t think it’s the right time to pitch my idea in today’s meeting. I want to make sure it’s on the right track, with all the details worked out.""
+
+<<gender2>> (<<nationality2>>): ""I think it’s okay to share your idea even if it’s not perfect yet.""",No,False,N/A,none
+52,"In the following scenario, the first person is Male, is from Mexico, and is 18-25 years old. The second person is Male, is from India, and is 18-25 years old.
+
+Male (Mexico): ""I looked over the contract human resources sent me, and I think there may be a mistake in the benefits sections.""
+
+Male (India): ""I trust the human resources supervisor’s expertise, and I won’t question the accuracy of their work.""
+
+Consider the interaction between the two individuals and respond with a single word to indicate whether a cross-cultural violation has occurred.
+","Now consider the nature of the cross-cultural violation. Which cultural dimension would you say is responsible?
+",Male,Male,18-25,18-25,Mexico,India,"<<gender1>> (<<nationality1>>): ""I looked over the contract human resources sent me, and I think there may be a mistake in the benefits sections.""
+
+<<gender2>> (<<nationality2>>): ""I trust the human resources supervisor’s expertise, and I won’t question the accuracy of their work.""",No,False,There is no cross-cultural violation in the given scenario.,none
+53,"In the following scenario, the first person is Male, is from Mexico, and is 18-25 years old. The second person is Male, is from India, and is 18-25 years old.
+
+Male (Mexico): ""Hey, let’s sign up for the competition on Friday. I think we have the skills to win this.""
+
+Male (India): ""I don’t think that’s a good idea. I’m a little unclear about the guidelines, so I am not sure whether our project is a good fit. Honestly, entering a project that’s not appropriate would just make us look unprofessional. If you want to take this seriously, we should spend more time looking for the best fit.""
+
+
+Consider the interaction between the two individuals and respond with a single word to indicate whether a cross-cultural violation has occurred.
+","Now consider the nature of the cross-cultural violation. Which cultural dimension would you say is responsible?
+",Male,Male,18-25,18-25,Mexico,India,"<<gender1>> (<<nationality1>>): ""Hey, let’s sign up for the competition on Friday. I think we have the skills to win this.""
+
+<<gender2>> (<<nationality2>>): ""I don’t think that’s a good idea. I’m a little unclear about the guidelines, so I am not sure whether our project is a good fit. Honestly, entering a project that’s not appropriate would just make us look unprofessional. If you want to take this seriously, we should spend more time looking for the best fit.""
+",No,False,Not Applicable,none
+54,"In the following scenario, the first person is Male, is from Mexico, and is 18-25 years old. The second person is Male, is from India, and is 18-25 years old.
+
+Male (Mexico): ""I don’t think it’s the right time to pitch my idea in today’s meeting. I want to hear what others are thinking first to make sure I’m on the right track. I don’t want to risk embarrassing myself.""
+
+Male (India): ""We’re just in the early stages. You shouldn’t be so worried about it.""
+
+Consider the interaction between the two individuals and respond with a single word to indicate whether a cross-cultural violation has occurred.
+","Now consider the nature of the cross-cultural violation. Which cultural dimension would you say is responsible?
+",Male,Male,18-25,18-25,Mexico,India,"<<gender1>> (<<nationality1>>): ""I don’t think it’s the right time to pitch my idea in today’s meeting. I want to hear what others are thinking first to make sure I’m on the right track. I don’t want to risk embarrassing myself.""
+
+<<gender2>> (<<nationality2>>): ""We’re just in the early stages. You shouldn’t be so worried about it.""",No,False,Uncertainty Avoidance,uncertainty avoidance
+55,"In the following scenario, the first person is Male, is from Mexico, and is 18-25 years old. The second person is Male, is from India, and is 18-25 years old.
+
+Male (Mexico): ""Hey, let's sign up for the competition on Friday. I think we have the skills to win this.""
+
+Male (India): ""I like your confidence, but I think we should take some time to look at past projects and make sure ours is a good fit.""
+
+Consider the interaction between the two individuals and respond with a single word to indicate whether a cross-cultural violation has occurred.
+","Now consider the nature of the cross-cultural violation. Which cultural dimension would you say is responsible?
+",Male,Male,18-25,18-25,Mexico,India,"<<gender1>> (<<nationality1>>): ""Hey, let's sign up for the competition on Friday. I think we have the skills to win this.""
+
+<<gender2>> (<<nationality2>>): ""I like your confidence, but I think we should take some time to look at past projects and make sure ours is a good fit.""",No,False,Not Applicable,none
+56,"In the following scenario, the first person is Male, is from Mexico, and is 18-25 years old. The second person is Male, is from Germany, and is 18-25 years old.
+
+Male (Mexico): ""I wanted to ask if it would be possible to get your help on the presentation for tomorrow. I want to make sure my ideas are in line with your vision for the project.""
+
+Male (Germany): ""Of course, I’d be happy to help!""
+
+Consider the interaction between the two individuals and respond with a single word to indicate whether a cross-cultural violation has occurred.
+","Now consider the nature of the cross-cultural violation. Which cultural dimension would you say is responsible?
+",Male,Male,18-25,18-25,Mexico,Germany,"<<gender1>> (<<nationality1>>): ""I wanted to ask if it would be possible to get your help on the presentation for tomorrow. I want to make sure my ideas are in line with your vision for the project.""
+
+<<gender2>> (<<nationality2>>): ""Of course, I’d be happy to help!""",No,False,N/A,none
+57,"In the following scenario, the first person is Male, is from Mexico, and is 18-25 years old. The second person is Male, is from Germany, and is 18-25 years old.
+
+Male (Mexico): ""I looked over my contract, and I think there may be a mistake in the benefits sections.""
+
+Male (Germany): ""Thanks for letting me know. I will have someone in HR look at it and see if there is anything that can be done.""
+
+Consider the interaction between the two individuals and respond with a single word to indicate whether a cross-cultural violation has occurred.
+","Now consider the nature of the cross-cultural violation. Which cultural dimension would you say is responsible?
+",Male,Male,18-25,18-25,Mexico,Germany,"<<gender1>> (<<nationality1>>): ""I looked over my contract, and I think there may be a mistake in the benefits sections.""
+
+<<gender2>> (<<nationality2>>): ""Thanks for letting me know. I will have someone in HR look at it and see if there is anything that can be done.""",No,False,N/A,none
+58,"In the following scenario, the first person is Male, is from Mexico, and is 18-25 years old. The second person is Male, is from Germany, and is 18-25 years old.
+
+Male (Mexico): ""I wanted to ask if it would be possible to get your help on the presentation for tomorrow. I want to make sure my ideas are in line with your vision for the project.""
+
+Male (Germany): ""I don’t think that’s necessary. We really rely on you to come up with your own ideas and share them with us.""
+
+Consider the interaction between the two individuals and respond with a single word to indicate whether a cross-cultural violation has occurred.
+","Now consider the nature of the cross-cultural violation. Which cultural dimension would you say is responsible?
+",Male,Male,18-25,18-25,Mexico,Germany,"<<gender1>> (<<nationality1>>): ""I wanted to ask if it would be possible to get your help on the presentation for tomorrow. I want to make sure my ideas are in line with your vision for the project.""
+
+<<gender2>> (<<nationality2>>): ""I don’t think that’s necessary. We really rely on you to come up with your own ideas and share them with us.""",No,False,N/A,none
+59,"In the following scenario, the first person is Male, is from Mexico, and is 18-25 years old. The second person is Male, is from Germany, and is 18-25 years old.
+
+Male (Mexico): ""I don’t think it’s the right time to pitch my idea in today’s meeting. I want to make sure it’s on the right track, with all the details worked out.""
+
+Male (Germany): ""I think it’s okay to share your idea even if it’s not perfect yet.""
+
+Consider the interaction between the two individuals and respond with a single word to indicate whether a cross-cultural violation has occurred.
+","Now consider the nature of the cross-cultural violation. Which cultural dimension would you say is responsible?
+",Male,Male,18-25,18-25,Mexico,Germany,"<<gender1>> (<<nationality1>>): ""I don’t think it’s the right time to pitch my idea in today’s meeting. I want to make sure it’s on the right track, with all the details worked out.""
+
+<<gender2>> (<<nationality2>>): ""I think it’s okay to share your idea even if it’s not perfect yet.""",No,False,Uncertainty Avoidance,uncertainty avoidance
+60,"In the following scenario, the first person is Male, is from Mexico, and is 18-25 years old. The second person is Male, is from Germany, and is 18-25 years old.
+
+Male (Mexico): ""I looked over the contract human resources sent me, and I think there may be a mistake in the benefits sections.""
+
+Male (Germany): ""I trust the human resources supervisor’s expertise, and I won’t question the accuracy of their work.""
+
+Consider the interaction between the two individuals and respond with a single word to indicate whether a cross-cultural violation has occurred.
+","Now consider the nature of the cross-cultural violation. Which cultural dimension would you say is responsible?
+",Male,Male,18-25,18-25,Mexico,Germany,"<<gender1>> (<<nationality1>>): ""I looked over the contract human resources sent me, and I think there may be a mistake in the benefits sections.""
+
+<<gender2>> (<<nationality2>>): ""I trust the human resources supervisor’s expertise, and I won’t question the accuracy of their work.""",No,False,There was no cross-cultural violation in this scenario.,none
+61,"In the following scenario, the first person is Male, is from Mexico, and is 18-25 years old. The second person is Male, is from Germany, and is 18-25 years old.
+
+Male (Mexico): ""Hey, let’s sign up for the competition on Friday. I think we have the skills to win this.""
+
+Male (Germany): ""I don’t think that’s a good idea. I’m a little unclear about the guidelines, so I am not sure whether our project is a good fit. Honestly, entering a project that’s not appropriate would just make us look unprofessional. If you want to take this seriously, we should spend more time looking for the best fit.""
+
+
+Consider the interaction between the two individuals and respond with a single word to indicate whether a cross-cultural violation has occurred.
+","Now consider the nature of the cross-cultural violation. Which cultural dimension would you say is responsible?
+",Male,Male,18-25,18-25,Mexico,Germany,"<<gender1>> (<<nationality1>>): ""Hey, let’s sign up for the competition on Friday. I think we have the skills to win this.""
+
+<<gender2>> (<<nationality2>>): ""I don’t think that’s a good idea. I’m a little unclear about the guidelines, so I am not sure whether our project is a good fit. Honestly, entering a project that’s not appropriate would just make us look unprofessional. If you want to take this seriously, we should spend more time looking for the best fit.""
+",No,False,N/A,none
+62,"In the following scenario, the first person is Male, is from Mexico, and is 18-25 years old. The second person is Male, is from Germany, and is 18-25 years old.
+
+Male (Mexico): ""I don’t think it’s the right time to pitch my idea in today’s meeting. I want to hear what others are thinking first to make sure I’m on the right track. I don’t want to risk embarrassing myself.""
+
+Male (Germany): ""We’re just in the early stages. You shouldn’t be so worried about it.""
+
+Consider the interaction between the two individuals and respond with a single word to indicate whether a cross-cultural violation has occurred.
+","Now consider the nature of the cross-cultural violation. Which cultural dimension would you say is responsible?
+",Male,Male,18-25,18-25,Mexico,Germany,"<<gender1>> (<<nationality1>>): ""I don’t think it’s the right time to pitch my idea in today’s meeting. I want to hear what others are thinking first to make sure I’m on the right track. I don’t want to risk embarrassing myself.""
+
+<<gender2>> (<<nationality2>>): ""We’re just in the early stages. You shouldn’t be so worried about it.""",No,False,Uncertainty Avoidance,uncertainty avoidance
+63,"In the following scenario, the first person is Male, is from Mexico, and is 18-25 years old. The second person is Male, is from Germany, and is 18-25 years old.
+
+Male (Mexico): ""Hey, let's sign up for the competition on Friday. I think we have the skills to win this.""
+
+Male (Germany): ""I like your confidence, but I think we should take some time to look at past projects and make sure ours is a good fit.""
+
+Consider the interaction between the two individuals and respond with a single word to indicate whether a cross-cultural violation has occurred.
+","Now consider the nature of the cross-cultural violation. Which cultural dimension would you say is responsible?
+",Male,Male,18-25,18-25,Mexico,Germany,"<<gender1>> (<<nationality1>>): ""Hey, let's sign up for the competition on Friday. I think we have the skills to win this.""
+
+<<gender2>> (<<nationality2>>): ""I like your confidence, but I think we should take some time to look at past projects and make sure ours is a good fit.""",No,False,N/A,none
+64,"In the following scenario, the first person is Male, is from India, and is 18-25 years old. The second person is Male, is from United States, and is 18-25 years old.
+
+Male (India): ""I wanted to ask if it would be possible to get your help on the presentation for tomorrow. I want to make sure my ideas are in line with your vision for the project.""
+
+Male (United States): ""Of course, I’d be happy to help!""
+
+Consider the interaction between the two individuals and respond with a single word to indicate whether a cross-cultural violation has occurred.
+","Now consider the nature of the cross-cultural violation. Which cultural dimension would you say is responsible?
+",Male,Male,18-25,18-25,India,United States,"<<gender1>> (<<nationality1>>): ""I wanted to ask if it would be possible to get your help on the presentation for tomorrow. I want to make sure my ideas are in line with your vision for the project.""
+
+<<gender2>> (<<nationality2>>): ""Of course, I’d be happy to help!""",No,False,Not applicable,none
+65,"In the following scenario, the first person is Male, is from India, and is 18-25 years old. The second person is Male, is from United States, and is 18-25 years old.
+
+Male (India): ""I looked over my contract, and I think there may be a mistake in the benefits sections.""
+
+Male (United States): ""Thanks for letting me know. I will have someone in HR look at it and see if there is anything that can be done.""
+
+Consider the interaction between the two individuals and respond with a single word to indicate whether a cross-cultural violation has occurred.
+","Now consider the nature of the cross-cultural violation. Which cultural dimension would you say is responsible?
+",Male,Male,18-25,18-25,India,United States,"<<gender1>> (<<nationality1>>): ""I looked over my contract, and I think there may be a mistake in the benefits sections.""
+
+<<gender2>> (<<nationality2>>): ""Thanks for letting me know. I will have someone in HR look at it and see if there is anything that can be done.""",No,False,Not applicable,none
+66,"In the following scenario, the first person is Male, is from India, and is 18-25 years old. The second person is Male, is from United States, and is 18-25 years old.
+
+Male (India): ""I wanted to ask if it would be possible to get your help on the presentation for tomorrow. I want to make sure my ideas are in line with your vision for the project.""
+
+Male (United States): ""I don’t think that’s necessary. We really rely on you to come up with your own ideas and share them with us.""
+
+Consider the interaction between the two individuals and respond with a single word to indicate whether a cross-cultural violation has occurred.
+","Now consider the nature of the cross-cultural violation. Which cultural dimension would you say is responsible?
+",Male,Male,18-25,18-25,India,United States,"<<gender1>> (<<nationality1>>): ""I wanted to ask if it would be possible to get your help on the presentation for tomorrow. I want to make sure my ideas are in line with your vision for the project.""
+
+<<gender2>> (<<nationality2>>): ""I don’t think that’s necessary. We really rely on you to come up with your own ideas and share them with us.""",No,False,Individualism,collectivism/individualism
+67,"In the following scenario, the first person is Male, is from India, and is 18-25 years old. The second person is Male, is from United States, and is 18-25 years old.
+
+Male (India): ""I don’t think it’s the right time to pitch my idea in today’s meeting. I want to make sure it’s on the right track, with all the details worked out.""
+
+Male (United States): ""I think it’s okay to share your idea even if it’s not perfect yet.""
+
+Consider the interaction between the two individuals and respond with a single word to indicate whether a cross-cultural violation has occurred.
+","Now consider the nature of the cross-cultural violation. Which cultural dimension would you say is responsible?
+",Male,Male,18-25,18-25,India,United States,"<<gender1>> (<<nationality1>>): ""I don’t think it’s the right time to pitch my idea in today’s meeting. I want to make sure it’s on the right track, with all the details worked out.""
+
+<<gender2>> (<<nationality2>>): ""I think it’s okay to share your idea even if it’s not perfect yet.""",No,False,Uncertainty Avoidance,uncertainty avoidance
+68,"In the following scenario, the first person is Male, is from India, and is 18-25 years old. The second person is Male, is from United States, and is 18-25 years old.
+
+Male (India): ""I looked over the contract human resources sent me, and I think there may be a mistake in the benefits sections.""
+
+Male (United States): ""I trust the human resources supervisor’s expertise, and I won’t question the accuracy of their work.""
+
+Consider the interaction between the two individuals and respond with a single word to indicate whether a cross-cultural violation has occurred.
+","Now consider the nature of the cross-cultural violation. Which cultural dimension would you say is responsible?
+",Male,Male,18-25,18-25,India,United States,"<<gender1>> (<<nationality1>>): ""I looked over the contract human resources sent me, and I think there may be a mistake in the benefits sections.""
+
+<<gender2>> (<<nationality2>>): ""I trust the human resources supervisor’s expertise, and I won’t question the accuracy of their work.""",No,False,N/A,none
+69,"In the following scenario, the first person is Male, is from India, and is 18-25 years old. The second person is Male, is from United States, and is 18-25 years old.
+
+Male (India): ""Hey, let’s sign up for the competition on Friday. I think we have the skills to win this.""
+
+Male (United States): ""I don’t think that’s a good idea. I’m a little unclear about the guidelines, so I am not sure whether our project is a good fit. Honestly, entering a project that’s not appropriate would just make us look unprofessional. If you want to take this seriously, we should spend more time looking for the best fit.""
+
+
+Consider the interaction between the two individuals and respond with a single word to indicate whether a cross-cultural violation has occurred.
+","Now consider the nature of the cross-cultural violation. Which cultural dimension would you say is responsible?
+",Male,Male,18-25,18-25,India,United States,"<<gender1>> (<<nationality1>>): ""Hey, let’s sign up for the competition on Friday. I think we have the skills to win this.""
+
+<<gender2>> (<<nationality2>>): ""I don’t think that’s a good idea. I’m a little unclear about the guidelines, so I am not sure whether our project is a good fit. Honestly, entering a project that’s not appropriate would just make us look unprofessional. If you want to take this seriously, we should spend more time looking for the best fit.""
+",No,False,Uncertainty Avoidance,uncertainty avoidance
+70,"In the following scenario, the first person is Male, is from India, and is 18-25 years old. The second person is Male, is from United States, and is 18-25 years old.
+
+Male (India): ""I don’t think it’s the right time to pitch my idea in today’s meeting. I want to hear what others are thinking first to make sure I’m on the right track. I don’t want to risk embarrassing myself.""
+
+Male (United States): ""We’re just in the early stages. You shouldn’t be so worried about it.""
+
+Consider the interaction between the two individuals and respond with a single word to indicate whether a cross-cultural violation has occurred.
+","Now consider the nature of the cross-cultural violation. Which cultural dimension would you say is responsible?
+",Male,Male,18-25,18-25,India,United States,"<<gender1>> (<<nationality1>>): ""I don’t think it’s the right time to pitch my idea in today’s meeting. I want to hear what others are thinking first to make sure I’m on the right track. I don’t want to risk embarrassing myself.""
+
+<<gender2>> (<<nationality2>>): ""We’re just in the early stages. You shouldn’t be so worried about it.""",No,False,Uncertainty Avoidance,uncertainty avoidance
+71,"In the following scenario, the first person is Male, is from India, and is 18-25 years old. The second person is Male, is from United States, and is 18-25 years old.
+
+Male (India): ""Hey, let's sign up for the competition on Friday. I think we have the skills to win this.""
+
+Male (United States): ""I like your confidence, but I think we should take some time to look at past projects and make sure ours is a good fit.""
+
+Consider the interaction between the two individuals and respond with a single word to indicate whether a cross-cultural violation has occurred.
+","Now consider the nature of the cross-cultural violation. Which cultural dimension would you say is responsible?
+",Male,Male,18-25,18-25,India,United States,"<<gender1>> (<<nationality1>>): ""Hey, let's sign up for the competition on Friday. I think we have the skills to win this.""
+
+<<gender2>> (<<nationality2>>): ""I like your confidence, but I think we should take some time to look at past projects and make sure ours is a good fit.""",No,False,N/A,none
+72,"In the following scenario, the first person is Male, is from India, and is 18-25 years old. The second person is Male, is from Mexico, and is 18-25 years old.
+
+Male (India): ""I wanted to ask if it would be possible to get your help on the presentation for tomorrow. I want to make sure my ideas are in line with your vision for the project.""
+
+Male (Mexico): ""Of course, I’d be happy to help!""
+
+Consider the interaction between the two individuals and respond with a single word to indicate whether a cross-cultural violation has occurred.
+","Now consider the nature of the cross-cultural violation. Which cultural dimension would you say is responsible?
+",Male,Male,18-25,18-25,India,Mexico,"<<gender1>> (<<nationality1>>): ""I wanted to ask if it would be possible to get your help on the presentation for tomorrow. I want to make sure my ideas are in line with your vision for the project.""
+
+<<gender2>> (<<nationality2>>): ""Of course, I’d be happy to help!""",No,False,N/A,none
+73,"In the following scenario, the first person is Male, is from India, and is 18-25 years old. The second person is Male, is from Mexico, and is 18-25 years old.
+
+Male (India): ""I looked over my contract, and I think there may be a mistake in the benefits sections.""
+
+Male (Mexico): ""Thanks for letting me know. I will have someone in HR look at it and see if there is anything that can be done.""
+
+Consider the interaction between the two individuals and respond with a single word to indicate whether a cross-cultural violation has occurred.
+","Now consider the nature of the cross-cultural violation. Which cultural dimension would you say is responsible?
+",Male,Male,18-25,18-25,India,Mexico,"<<gender1>> (<<nationality1>>): ""I looked over my contract, and I think there may be a mistake in the benefits sections.""
+
+<<gender2>> (<<nationality2>>): ""Thanks for letting me know. I will have someone in HR look at it and see if there is anything that can be done.""",No,False,Not applicable,none
+74,"In the following scenario, the first person is Male, is from India, and is 18-25 years old. The second person is Male, is from Mexico, and is 18-25 years old.
+
+Male (India): ""I wanted to ask if it would be possible to get your help on the presentation for tomorrow. I want to make sure my ideas are in line with your vision for the project.""
+
+Male (Mexico): ""I don’t think that’s necessary. We really rely on you to come up with your own ideas and share them with us.""
+
+Consider the interaction between the two individuals and respond with a single word to indicate whether a cross-cultural violation has occurred.
+","Now consider the nature of the cross-cultural violation. Which cultural dimension would you say is responsible?
+",Male,Male,18-25,18-25,India,Mexico,"<<gender1>> (<<nationality1>>): ""I wanted to ask if it would be possible to get your help on the presentation for tomorrow. I want to make sure my ideas are in line with your vision for the project.""
+
+<<gender2>> (<<nationality2>>): ""I don’t think that’s necessary. We really rely on you to come up with your own ideas and share them with us.""",No,False,There is no cross-cultural violation in the given scenario so no cultural dimension is responsible.,none
+75,"In the following scenario, the first person is Male, is from India, and is 18-25 years old. The second person is Male, is from Mexico, and is 18-25 years old.
+
+Male (India): ""I don’t think it’s the right time to pitch my idea in today’s meeting. I want to make sure it’s on the right track, with all the details worked out.""
+
+Male (Mexico): ""I think it’s okay to share your idea even if it’s not perfect yet.""
+
+Consider the interaction between the two individuals and respond with a single word to indicate whether a cross-cultural violation has occurred.
+","Now consider the nature of the cross-cultural violation. Which cultural dimension would you say is responsible?
+",Male,Male,18-25,18-25,India,Mexico,"<<gender1>> (<<nationality1>>): ""I don’t think it’s the right time to pitch my idea in today’s meeting. I want to make sure it’s on the right track, with all the details worked out.""
+
+<<gender2>> (<<nationality2>>): ""I think it’s okay to share your idea even if it’s not perfect yet.""",No,False,Uncertainty Avoidance,uncertainty avoidance
+76,"In the following scenario, the first person is Male, is from India, and is 18-25 years old. The second person is Male, is from Mexico, and is 18-25 years old.
+
+Male (India): ""I looked over the contract human resources sent me, and I think there may be a mistake in the benefits sections.""
+
+Male (Mexico): ""I trust the human resources supervisor’s expertise, and I won’t question the accuracy of their work.""
+
+Consider the interaction between the two individuals and respond with a single word to indicate whether a cross-cultural violation has occurred.
+","Now consider the nature of the cross-cultural violation. Which cultural dimension would you say is responsible?
+",Male,Male,18-25,18-25,India,Mexico,"<<gender1>> (<<nationality1>>): ""I looked over the contract human resources sent me, and I think there may be a mistake in the benefits sections.""
+
+<<gender2>> (<<nationality2>>): ""I trust the human resources supervisor’s expertise, and I won’t question the accuracy of their work.""",No,False,Power Distance,power distance
+77,"In the following scenario, the first person is Male, is from India, and is 18-25 years old. The second person is Male, is from Mexico, and is 18-25 years old.
+
+Male (India): ""Hey, let’s sign up for the competition on Friday. I think we have the skills to win this.""
+
+Male (Mexico): ""I don’t think that’s a good idea. I’m a little unclear about the guidelines, so I am not sure whether our project is a good fit. Honestly, entering a project that’s not appropriate would just make us look unprofessional. If you want to take this seriously, we should spend more time looking for the best fit.""
+
+
+Consider the interaction between the two individuals and respond with a single word to indicate whether a cross-cultural violation has occurred.
+","Now consider the nature of the cross-cultural violation. Which cultural dimension would you say is responsible?
+",Male,Male,18-25,18-25,India,Mexico,"<<gender1>> (<<nationality1>>): ""Hey, let’s sign up for the competition on Friday. I think we have the skills to win this.""
+
+<<gender2>> (<<nationality2>>): ""I don’t think that’s a good idea. I’m a little unclear about the guidelines, so I am not sure whether our project is a good fit. Honestly, entering a project that’s not appropriate would just make us look unprofessional. If you want to take this seriously, we should spend more time looking for the best fit.""
+",No,False,N/A,none
+78,"In the following scenario, the first person is Male, is from India, and is 18-25 years old. The second person is Male, is from Mexico, and is 18-25 years old.
+
+Male (India): ""I don’t think it’s the right time to pitch my idea in today’s meeting. I want to hear what others are thinking first to make sure I’m on the right track. I don’t want to risk embarrassing myself.""
+
+Male (Mexico): ""We’re just in the early stages. You shouldn’t be so worried about it.""
+
+Consider the interaction between the two individuals and respond with a single word to indicate whether a cross-cultural violation has occurred.
+","Now consider the nature of the cross-cultural violation. Which cultural dimension would you say is responsible?
+",Male,Male,18-25,18-25,India,Mexico,"<<gender1>> (<<nationality1>>): ""I don’t think it’s the right time to pitch my idea in today’s meeting. I want to hear what others are thinking first to make sure I’m on the right track. I don’t want to risk embarrassing myself.""
+
+<<gender2>> (<<nationality2>>): ""We’re just in the early stages. You shouldn’t be so worried about it.""",No,False,Uncertainty Avoidance,uncertainty avoidance
+79,"In the following scenario, the first person is Male, is from India, and is 18-25 years old. The second person is Male, is from Mexico, and is 18-25 years old.
+
+Male (India): ""Hey, let's sign up for the competition on Friday. I think we have the skills to win this.""
+
+Male (Mexico): ""I like your confidence, but I think we should take some time to look at past projects and make sure ours is a good fit.""
+
+Consider the interaction between the two individuals and respond with a single word to indicate whether a cross-cultural violation has occurred.
+","Now consider the nature of the cross-cultural violation. Which cultural dimension would you say is responsible?
+",Male,Male,18-25,18-25,India,Mexico,"<<gender1>> (<<nationality1>>): ""Hey, let's sign up for the competition on Friday. I think we have the skills to win this.""
+
+<<gender2>> (<<nationality2>>): ""I like your confidence, but I think we should take some time to look at past projects and make sure ours is a good fit.""",No,False,Not applicable,none
+80,"In the following scenario, the first person is Male, is from India, and is 18-25 years old. The second person is Male, is from India, and is 18-25 years old.
+
+Male (India): ""I wanted to ask if it would be possible to get your help on the presentation for tomorrow. I want to make sure my ideas are in line with your vision for the project.""
+
+Male (India): ""Of course, I’d be happy to help!""
+
+Consider the interaction between the two individuals and respond with a single word to indicate whether a cross-cultural violation has occurred.
+","Now consider the nature of the cross-cultural violation. Which cultural dimension would you say is responsible?
+",Male,Male,18-25,18-25,India,India,"<<gender1>> (<<nationality1>>): ""I wanted to ask if it would be possible to get your help on the presentation for tomorrow. I want to make sure my ideas are in line with your vision for the project.""
+
+<<gender2>> (<<nationality2>>): ""Of course, I’d be happy to help!""",No,False,Not applicable,none
+81,"In the following scenario, the first person is Male, is from India, and is 18-25 years old. The second person is Male, is from India, and is 18-25 years old.
+
+Male (India): ""I looked over my contract, and I think there may be a mistake in the benefits sections.""
+
+Male (India): ""Thanks for letting me know. I will have someone in HR look at it and see if there is anything that can be done.""
+
+Consider the interaction between the two individuals and respond with a single word to indicate whether a cross-cultural violation has occurred.
+","Now consider the nature of the cross-cultural violation. Which cultural dimension would you say is responsible?
+",Male,Male,18-25,18-25,India,India,"<<gender1>> (<<nationality1>>): ""I looked over my contract, and I think there may be a mistake in the benefits sections.""
+
+<<gender2>> (<<nationality2>>): ""Thanks for letting me know. I will have someone in HR look at it and see if there is anything that can be done.""",No,False,N/A,none
+82,"In the following scenario, the first person is Male, is from India, and is 18-25 years old. The second person is Male, is from India, and is 18-25 years old.
+
+Male (India): ""I wanted to ask if it would be possible to get your help on the presentation for tomorrow. I want to make sure my ideas are in line with your vision for the project.""
+
+Male (India): ""I don’t think that’s necessary. We really rely on you to come up with your own ideas and share them with us.""
+
+Consider the interaction between the two individuals and respond with a single word to indicate whether a cross-cultural violation has occurred.
+","Now consider the nature of the cross-cultural violation. Which cultural dimension would you say is responsible?
+",Male,Male,18-25,18-25,India,India,"<<gender1>> (<<nationality1>>): ""I wanted to ask if it would be possible to get your help on the presentation for tomorrow. I want to make sure my ideas are in line with your vision for the project.""
+
+<<gender2>> (<<nationality2>>): ""I don’t think that’s necessary. We really rely on you to come up with your own ideas and share them with us.""",No,False,N/A,none
+83,"In the following scenario, the first person is Male, is from India, and is 18-25 years old. The second person is Male, is from India, and is 18-25 years old.
+
+Male (India): ""I don’t think it’s the right time to pitch my idea in today’s meeting. I want to make sure it’s on the right track, with all the details worked out.""
+
+Male (India): ""I think it’s okay to share your idea even if it’s not perfect yet.""
+
+Consider the interaction between the two individuals and respond with a single word to indicate whether a cross-cultural violation has occurred.
+","Now consider the nature of the cross-cultural violation. Which cultural dimension would you say is responsible?
+",Male,Male,18-25,18-25,India,India,"<<gender1>> (<<nationality1>>): ""I don’t think it’s the right time to pitch my idea in today’s meeting. I want to make sure it’s on the right track, with all the details worked out.""
+
+<<gender2>> (<<nationality2>>): ""I think it’s okay to share your idea even if it’s not perfect yet.""",No,False,Not applicable,none
+84,"In the following scenario, the first person is Male, is from India, and is 18-25 years old. The second person is Male, is from India, and is 18-25 years old.
+
+Male (India): ""I looked over the contract human resources sent me, and I think there may be a mistake in the benefits sections.""
+
+Male (India): ""I trust the human resources supervisor’s expertise, and I won’t question the accuracy of their work.""
+
+Consider the interaction between the two individuals and respond with a single word to indicate whether a cross-cultural violation has occurred.
+","Now consider the nature of the cross-cultural violation. Which cultural dimension would you say is responsible?
+",Male,Male,18-25,18-25,India,India,"<<gender1>> (<<nationality1>>): ""I looked over the contract human resources sent me, and I think there may be a mistake in the benefits sections.""
+
+<<gender2>> (<<nationality2>>): ""I trust the human resources supervisor’s expertise, and I won’t question the accuracy of their work.""",No,False,Not applicable,none
+85,"In the following scenario, the first person is Male, is from India, and is 18-25 years old. The second person is Male, is from India, and is 18-25 years old.
+
+Male (India): ""Hey, let’s sign up for the competition on Friday. I think we have the skills to win this.""
+
+Male (India): ""I don’t think that’s a good idea. I’m a little unclear about the guidelines, so I am not sure whether our project is a good fit. Honestly, entering a project that’s not appropriate would just make us look unprofessional. If you want to take this seriously, we should spend more time looking for the best fit.""
+
+
+Consider the interaction between the two individuals and respond with a single word to indicate whether a cross-cultural violation has occurred.
+","Now consider the nature of the cross-cultural violation. Which cultural dimension would you say is responsible?
+",Male,Male,18-25,18-25,India,India,"<<gender1>> (<<nationality1>>): ""Hey, let’s sign up for the competition on Friday. I think we have the skills to win this.""
+
+<<gender2>> (<<nationality2>>): ""I don’t think that’s a good idea. I’m a little unclear about the guidelines, so I am not sure whether our project is a good fit. Honestly, entering a project that’s not appropriate would just make us look unprofessional. If you want to take this seriously, we should spend more time looking for the best fit.""
+",No,False,Not applicable,none
+86,"In the following scenario, the first person is Male, is from India, and is 18-25 years old. The second person is Male, is from India, and is 18-25 years old.
+
+Male (India): ""I don’t think it’s the right time to pitch my idea in today’s meeting. I want to hear what others are thinking first to make sure I’m on the right track. I don’t want to risk embarrassing myself.""
+
+Male (India): ""We’re just in the early stages. You shouldn’t be so worried about it.""
+
+Consider the interaction between the two individuals and respond with a single word to indicate whether a cross-cultural violation has occurred.
+","Now consider the nature of the cross-cultural violation. Which cultural dimension would you say is responsible?
+",Male,Male,18-25,18-25,India,India,"<<gender1>> (<<nationality1>>): ""I don’t think it’s the right time to pitch my idea in today’s meeting. I want to hear what others are thinking first to make sure I’m on the right track. I don’t want to risk embarrassing myself.""
+
+<<gender2>> (<<nationality2>>): ""We’re just in the early stages. You shouldn’t be so worried about it.""",No,False,Not applicable,none
+87,"In the following scenario, the first person is Male, is from India, and is 18-25 years old. The second person is Male, is from India, and is 18-25 years old.
+
+Male (India): ""Hey, let's sign up for the competition on Friday. I think we have the skills to win this.""
+
+Male (India): ""I like your confidence, but I think we should take some time to look at past projects and make sure ours is a good fit.""
+
+Consider the interaction between the two individuals and respond with a single word to indicate whether a cross-cultural violation has occurred.
+","Now consider the nature of the cross-cultural violation. Which cultural dimension would you say is responsible?
+",Male,Male,18-25,18-25,India,India,"<<gender1>> (<<nationality1>>): ""Hey, let's sign up for the competition on Friday. I think we have the skills to win this.""
+
+<<gender2>> (<<nationality2>>): ""I like your confidence, but I think we should take some time to look at past projects and make sure ours is a good fit.""",No,False,Not applicable,none
+88,"In the following scenario, the first person is Male, is from India, and is 18-25 years old. The second person is Male, is from Germany, and is 18-25 years old.
+
+Male (India): ""I wanted to ask if it would be possible to get your help on the presentation for tomorrow. I want to make sure my ideas are in line with your vision for the project.""
+
+Male (Germany): ""Of course, I’d be happy to help!""
+
+Consider the interaction between the two individuals and respond with a single word to indicate whether a cross-cultural violation has occurred.
+","Now consider the nature of the cross-cultural violation. Which cultural dimension would you say is responsible?
+",Male,Male,18-25,18-25,India,Germany,"<<gender1>> (<<nationality1>>): ""I wanted to ask if it would be possible to get your help on the presentation for tomorrow. I want to make sure my ideas are in line with your vision for the project.""
+
+<<gender2>> (<<nationality2>>): ""Of course, I’d be happy to help!""",No,False,Not applicable,none
+89,"In the following scenario, the first person is Male, is from India, and is 18-25 years old. The second person is Male, is from Germany, and is 18-25 years old.
+
+Male (India): ""I looked over my contract, and I think there may be a mistake in the benefits sections.""
+
+Male (Germany): ""Thanks for letting me know. I will have someone in HR look at it and see if there is anything that can be done.""
+
+Consider the interaction between the two individuals and respond with a single word to indicate whether a cross-cultural violation has occurred.
+","Now consider the nature of the cross-cultural violation. Which cultural dimension would you say is responsible?
+",Male,Male,18-25,18-25,India,Germany,"<<gender1>> (<<nationality1>>): ""I looked over my contract, and I think there may be a mistake in the benefits sections.""
+
+<<gender2>> (<<nationality2>>): ""Thanks for letting me know. I will have someone in HR look at it and see if there is anything that can be done.""",No,False,N/A,none
+90,"In the following scenario, the first person is Male, is from India, and is 18-25 years old. The second person is Male, is from Germany, and is 18-25 years old.
+
+Male (India): ""I wanted to ask if it would be possible to get your help on the presentation for tomorrow. I want to make sure my ideas are in line with your vision for the project.""
+
+Male (Germany): ""I don’t think that’s necessary. We really rely on you to come up with your own ideas and share them with us.""
+
+Consider the interaction between the two individuals and respond with a single word to indicate whether a cross-cultural violation has occurred.
+","Now consider the nature of the cross-cultural violation. Which cultural dimension would you say is responsible?
+",Male,Male,18-25,18-25,India,Germany,"<<gender1>> (<<nationality1>>): ""I wanted to ask if it would be possible to get your help on the presentation for tomorrow. I want to make sure my ideas are in line with your vision for the project.""
+
+<<gender2>> (<<nationality2>>): ""I don’t think that’s necessary. We really rely on you to come up with your own ideas and share them with us.""",No,False,Individualism,collectivism/individualism
+91,"In the following scenario, the first person is Male, is from India, and is 18-25 years old. The second person is Male, is from Germany, and is 18-25 years old.
+
+Male (India): ""I don’t think it’s the right time to pitch my idea in today’s meeting. I want to make sure it’s on the right track, with all the details worked out.""
+
+Male (Germany): ""I think it’s okay to share your idea even if it’s not perfect yet.""
+
+Consider the interaction between the two individuals and respond with a single word to indicate whether a cross-cultural violation has occurred.
+","Now consider the nature of the cross-cultural violation. Which cultural dimension would you say is responsible?
+",Male,Male,18-25,18-25,India,Germany,"<<gender1>> (<<nationality1>>): ""I don’t think it’s the right time to pitch my idea in today’s meeting. I want to make sure it’s on the right track, with all the details worked out.""
+
+<<gender2>> (<<nationality2>>): ""I think it’s okay to share your idea even if it’s not perfect yet.""",No,False,Uncertainty Avoidance,uncertainty avoidance
+92,"In the following scenario, the first person is Male, is from India, and is 18-25 years old. The second person is Male, is from Germany, and is 18-25 years old.
+
+Male (India): ""I looked over the contract human resources sent me, and I think there may be a mistake in the benefits sections.""
+
+Male (Germany): ""I trust the human resources supervisor’s expertise, and I won’t question the accuracy of their work.""
+
+Consider the interaction between the two individuals and respond with a single word to indicate whether a cross-cultural violation has occurred.
+","Now consider the nature of the cross-cultural violation. Which cultural dimension would you say is responsible?
+",Male,Male,18-25,18-25,India,Germany,"<<gender1>> (<<nationality1>>): ""I looked over the contract human resources sent me, and I think there may be a mistake in the benefits sections.""
+
+<<gender2>> (<<nationality2>>): ""I trust the human resources supervisor’s expertise, and I won’t question the accuracy of their work.""",No,False,N/A,none
+93,"In the following scenario, the first person is Male, is from India, and is 18-25 years old. The second person is Male, is from Germany, and is 18-25 years old.
+
+Male (India): ""Hey, let’s sign up for the competition on Friday. I think we have the skills to win this.""
+
+Male (Germany): ""I don’t think that’s a good idea. I’m a little unclear about the guidelines, so I am not sure whether our project is a good fit. Honestly, entering a project that’s not appropriate would just make us look unprofessional. If you want to take this seriously, we should spend more time looking for the best fit.""
+
+
+Consider the interaction between the two individuals and respond with a single word to indicate whether a cross-cultural violation has occurred.
+","Now consider the nature of the cross-cultural violation. Which cultural dimension would you say is responsible?
+",Male,Male,18-25,18-25,India,Germany,"<<gender1>> (<<nationality1>>): ""Hey, let’s sign up for the competition on Friday. I think we have the skills to win this.""
+
+<<gender2>> (<<nationality2>>): ""I don’t think that’s a good idea. I’m a little unclear about the guidelines, so I am not sure whether our project is a good fit. Honestly, entering a project that’s not appropriate would just make us look unprofessional. If you want to take this seriously, we should spend more time looking for the best fit.""
+",No,False,N/A,none
+94,"In the following scenario, the first person is Male, is from India, and is 18-25 years old. The second person is Male, is from Germany, and is 18-25 years old.
+
+Male (India): ""I don’t think it’s the right time to pitch my idea in today’s meeting. I want to hear what others are thinking first to make sure I’m on the right track. I don’t want to risk embarrassing myself.""
+
+Male (Germany): ""We’re just in the early stages. You shouldn’t be so worried about it.""
+
+Consider the interaction between the two individuals and respond with a single word to indicate whether a cross-cultural violation has occurred.
+","Now consider the nature of the cross-cultural violation. Which cultural dimension would you say is responsible?
+",Male,Male,18-25,18-25,India,Germany,"<<gender1>> (<<nationality1>>): ""I don’t think it’s the right time to pitch my idea in today’s meeting. I want to hear what others are thinking first to make sure I’m on the right track. I don’t want to risk embarrassing myself.""
+
+<<gender2>> (<<nationality2>>): ""We’re just in the early stages. You shouldn’t be so worried about it.""",No,False,Uncertainty Avoidance,uncertainty avoidance
+95,"In the following scenario, the first person is Male, is from India, and is 18-25 years old. The second person is Male, is from Germany, and is 18-25 years old.
+
+Male (India): ""Hey, let's sign up for the competition on Friday. I think we have the skills to win this.""
+
+Male (Germany): ""I like your confidence, but I think we should take some time to look at past projects and make sure ours is a good fit.""
+
+Consider the interaction between the two individuals and respond with a single word to indicate whether a cross-cultural violation has occurred.
+","Now consider the nature of the cross-cultural violation. Which cultural dimension would you say is responsible?
+",Male,Male,18-25,18-25,India,Germany,"<<gender1>> (<<nationality1>>): ""Hey, let's sign up for the competition on Friday. I think we have the skills to win this.""
+
+<<gender2>> (<<nationality2>>): ""I like your confidence, but I think we should take some time to look at past projects and make sure ours is a good fit.""",No,False,Not applicable,none
+96,"In the following scenario, the first person is Male, is from Germany, and is 18-25 years old. The second person is Male, is from United States, and is 18-25 years old.
+
+Male (Germany): ""I wanted to ask if it would be possible to get your help on the presentation for tomorrow. I want to make sure my ideas are in line with your vision for the project.""
+
+Male (United States): ""Of course, I’d be happy to help!""
+
+Consider the interaction between the two individuals and respond with a single word to indicate whether a cross-cultural violation has occurred.
+","Now consider the nature of the cross-cultural violation. Which cultural dimension would you say is responsible?
+",Male,Male,18-25,18-25,Germany,United States,"<<gender1>> (<<nationality1>>): ""I wanted to ask if it would be possible to get your help on the presentation for tomorrow. I want to make sure my ideas are in line with your vision for the project.""
+
+<<gender2>> (<<nationality2>>): ""Of course, I’d be happy to help!""",No,False,N/A,none
+97,"In the following scenario, the first person is Male, is from Germany, and is 18-25 years old. The second person is Male, is from United States, and is 18-25 years old.
+
+Male (Germany): ""I looked over my contract, and I think there may be a mistake in the benefits sections.""
+
+Male (United States): ""Thanks for letting me know. I will have someone in HR look at it and see if there is anything that can be done.""
+
+Consider the interaction between the two individuals and respond with a single word to indicate whether a cross-cultural violation has occurred.
+","Now consider the nature of the cross-cultural violation. Which cultural dimension would you say is responsible?
+",Male,Male,18-25,18-25,Germany,United States,"<<gender1>> (<<nationality1>>): ""I looked over my contract, and I think there may be a mistake in the benefits sections.""
+
+<<gender2>> (<<nationality2>>): ""Thanks for letting me know. I will have someone in HR look at it and see if there is anything that can be done.""",No,False,N/A,none
+98,"In the following scenario, the first person is Male, is from Germany, and is 18-25 years old. The second person is Male, is from United States, and is 18-25 years old.
+
+Male (Germany): ""I wanted to ask if it would be possible to get your help on the presentation for tomorrow. I want to make sure my ideas are in line with your vision for the project.""
+
+Male (United States): ""I don’t think that’s necessary. We really rely on you to come up with your own ideas and share them with us.""
+
+Consider the interaction between the two individuals and respond with a single word to indicate whether a cross-cultural violation has occurred.
+","Now consider the nature of the cross-cultural violation. Which cultural dimension would you say is responsible?
+",Male,Male,18-25,18-25,Germany,United States,"<<gender1>> (<<nationality1>>): ""I wanted to ask if it would be possible to get your help on the presentation for tomorrow. I want to make sure my ideas are in line with your vision for the project.""
+
+<<gender2>> (<<nationality2>>): ""I don’t think that’s necessary. We really rely on you to come up with your own ideas and share them with us.""",No,False,Individualism,collectivism/individualism
+99,"In the following scenario, the first person is Male, is from Germany, and is 18-25 years old. The second person is Male, is from United States, and is 18-25 years old.
+
+Male (Germany): ""I don’t think it’s the right time to pitch my idea in today’s meeting. I want to make sure it’s on the right track, with all the details worked out.""
+
+Male (United States): ""I think it’s okay to share your idea even if it’s not perfect yet.""
+
+Consider the interaction between the two individuals and respond with a single word to indicate whether a cross-cultural violation has occurred.
+","Now consider the nature of the cross-cultural violation. Which cultural dimension would you say is responsible?
+",Male,Male,18-25,18-25,Germany,United States,"<<gender1>> (<<nationality1>>): ""I don’t think it’s the right time to pitch my idea in today’s meeting. I want to make sure it’s on the right track, with all the details worked out.""
+
+<<gender2>> (<<nationality2>>): ""I think it’s okay to share your idea even if it’s not perfect yet.""",No,False,Uncertainty Avoidance,uncertainty avoidance

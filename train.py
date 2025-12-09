@@ -19,21 +19,49 @@ class Config:
     DATASET_PATH = "scenarios.csv"  # Update with your actual path
     EMBEDDING_CACHE = "embeddings_cache.pt"
     
-    # Training parameters
-    BATCH_SIZE = 16
+    # Training parameters (auto-adjusted based on dataset size)
+    BATCH_SIZE = 16  # Will be adjusted if dataset is small
     HIDDEN_DIM = 128
     LEARNING_RATE = 0.001
     NUM_EPOCHS = 50
     DROPOUT = 0.3
     
-    # Data split
-    TRAIN_SIZE = 0.7
-    VAL_SIZE = 0.15
-    TEST_SIZE = 0.15
+    # Data split ratios (configurable)
+    TRAIN_RATIO = 0.70  # 70% for training
+    VAL_RATIO = 0.15    # 15% for validation
+    TEST_RATIO = 0.15   # 15% for testing
     RANDOM_SEED = 42
     
     # Device
     DEVICE = torch.device('mps' if torch.backends.mps.is_available() else 'cpu')
+    
+    @classmethod
+    def adjust_for_dataset_size(cls, dataset_size):
+        """
+        Automatically adjust hyperparameters based on dataset size.
+        """
+        print(f"\n📊 Auto-adjusting hyperparameters for dataset size: {dataset_size}")
+        
+        # Adjust batch size for small datasets
+        if dataset_size < 100:
+            cls.BATCH_SIZE = 4
+            print(f"  → Batch size: {cls.BATCH_SIZE} (small dataset)")
+        elif dataset_size < 300:
+            cls.BATCH_SIZE = 8
+            print(f"  → Batch size: {cls.BATCH_SIZE} (medium dataset)")
+        else:
+            cls.BATCH_SIZE = 16
+            print(f"  → Batch size: {cls.BATCH_SIZE} (large dataset)")
+        
+        # Adjust epochs for very small datasets
+        if dataset_size < 50:
+            cls.NUM_EPOCHS = 100
+            print(f"  → Epochs: {cls.NUM_EPOCHS} (more training for small dataset)")
+        
+        # Adjust hidden dimension for large datasets
+        if dataset_size > 2000:
+            cls.HIDDEN_DIM = 256
+            print(f"  → Hidden dim: {cls.HIDDEN_DIM} (larger network for big dataset)")
 
 config = Config()
 print(f"Using device: {config.DEVICE}")
@@ -183,26 +211,65 @@ def load_and_split_data(csv_path):
     # Explore the dataset
     explore_dataset(df, text_col, label_col)
     
-    # First split: 70% train, 30% temp
-    train_df, temp_df = train_test_split(
-        df, 
-        test_size=0.3, 
-        random_state=config.RANDOM_SEED,
-        stratify=df[label_col]
-    )
+    # Check if we have enough samples for stratification
+    min_class_count = df[label_col].value_counts().min()
+    print(f"\nSmallest class has {min_class_count} samples")
     
-    # Second split: 15% val, 15% test
-    val_df, test_df = train_test_split(
-        temp_df,
-        test_size=0.5,
-        random_state=config.RANDOM_SEED,
-        stratify=temp_df[label_col]
-    )
+    # Calculate minimum samples needed for stratified split
+    # We need at least 2 samples per class in each split
+    min_samples_needed = 2 / config.TEST_SIZE  # ~14 samples minimum
+    
+    if min_class_count < min_samples_needed:
+        print(f"⚠️  Warning: Small dataset. Stratification may not be possible.")
+        print(f"   Proceeding with random split (no stratification)...")
+        stratify_param = None
+    else:
+        stratify_param = df[label_col]
+        print("✓ Sufficient samples for stratified split")
+    
+    # First split: 70% train, 30% temp
+    try:
+        train_df, temp_df = train_test_split(
+            df, 
+            test_size=0.3, 
+            random_state=config.RANDOM_SEED,
+            stratify=stratify_param
+        )
+        
+        # Second split: 15% val, 15% test
+        val_df, test_df = train_test_split(
+            temp_df,
+            test_size=0.5,
+            random_state=config.RANDOM_SEED,
+            stratify=temp_df[label_col] if stratify_param is not None else None
+        )
+    except ValueError as e:
+        print(f"⚠️  Stratification failed: {e}")
+        print("   Falling back to random split...")
+        train_df, temp_df = train_test_split(
+            df, 
+            test_size=0.3, 
+            random_state=config.RANDOM_SEED
+        )
+        val_df, test_df = train_test_split(
+            temp_df,
+            test_size=0.5,
+            random_state=config.RANDOM_SEED
+        )
     
     print(f"\nData split:")
     print(f"  Train: {len(train_df)} samples ({len(train_df)/len(df)*100:.1f}%)")
     print(f"  Val:   {len(val_df)} samples ({len(val_df)/len(df)*100:.1f}%)")
     print(f"  Test:  {len(test_df)} samples ({len(test_df)/len(df)*100:.1f}%)")
+    
+    # Verify label distribution in each split
+    print(f"\nLabel distribution across splits:")
+    for split_name, split_df in [("Train", train_df), ("Val", val_df), ("Test", test_df)]:
+        label_dist = split_df[label_col].value_counts(normalize=True)
+        print(f"  {split_name}:")
+        for label, pct in label_dist.items():
+            label_name = "Violation" if label == 1 else "No Violation"
+            print(f"    {label_name}: {pct*100:.1f}%")
     
     return train_df, val_df, test_df, text_col, label_col
 
@@ -213,18 +280,23 @@ def extract_embeddings(texts, model, tokenizer, device):
     """
     Extract embeddings from GPT-2 model.
     Uses the last token's hidden state as the embedding.
+    Handles datasets of any size with batch processing.
     """
     print(f"\nExtracting embeddings for {len(texts)} samples...")
     model.to(device)
     model.eval()
     
     embeddings = []
+    batch_size = 8  # Process 8 texts at a time to manage memory
     
     with torch.no_grad():
-        for text in tqdm(texts, desc="Extracting embeddings"):
-            # Tokenize
+        # Process in batches
+        for i in tqdm(range(0, len(texts), batch_size), desc="Extracting embeddings"):
+            batch_texts = texts[i:i+batch_size]
+            
+            # Tokenize batch
             inputs = tokenizer(
-                text,
+                batch_texts,
                 return_tensors="pt",
                 padding=True,
                 truncation=True,
@@ -238,10 +310,12 @@ def extract_embeddings(texts, model, tokenizer, device):
             # Shape: (batch_size, seq_len, hidden_dim)
             last_hidden_state = outputs.hidden_states[-1]
             
-            # Get last token embedding
-            embedding = last_hidden_state[0, -1, :].cpu()
-            embeddings.append(embedding)
+            # Get last token embedding for each item in batch
+            for j in range(last_hidden_state.size(0)):
+                embedding = last_hidden_state[j, -1, :].cpu()
+                embeddings.append(embedding)
     
+    print(f"✓ Extracted {len(embeddings)} embeddings")
     return torch.stack(embeddings)
 
 def get_or_compute_embeddings(train_df, val_df, test_df, text_col, cache_path):
@@ -476,17 +550,24 @@ def plot_confusion_matrix(cm, classes=['No Violation', 'Violation']):
 def main():
     print("="*60)
     print("Cross-Cultural Norm Violation Detection - MLP Probe")
+    print("Supports datasets of any size with automatic optimization")
     print("="*60)
     
     # Load and split data
     train_df, val_df, test_df, text_col, label_col = load_and_split_data(config.DATASET_PATH)
+    
+    # Auto-adjust hyperparameters based on dataset size
+    config.adjust_for_dataset_size(len(train_df) + len(val_df) + len(test_df))
     
     # Get or compute embeddings
     train_embeddings, val_embeddings, test_embeddings = get_or_compute_embeddings(
         train_df, val_df, test_df, text_col, config.EMBEDDING_CACHE
     )
     
-    print(f"\nEmbedding dimensions: {train_embeddings.shape[1]}")
+    print(f"\n✓ Embedding dimensions: {train_embeddings.shape[1]}")
+    print(f"✓ Training samples: {train_embeddings.shape[0]}")
+    print(f"✓ Validation samples: {val_embeddings.shape[0]}")
+    print(f"✓ Test samples: {test_embeddings.shape[0]}")
     
     # Create data loaders
     train_dataset = TensorDataset(

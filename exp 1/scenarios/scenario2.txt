@@ -1,3 +1,0 @@
-<<name1>> (<<nationality1>>): "Hey, Emily, I heard one of our classmates is sick and struggling with class. I was thinking of baking some cookies and bringing them over tomorrow, but I have an essay due tonight, so I’ll probably just drop them off quickly. Want to help out?"
-
-<<name2>> (<<nationality2>>): "Hmm, I think it's better to visit her and let her know we care. I also have something due tonight, but I am just going to do it later."

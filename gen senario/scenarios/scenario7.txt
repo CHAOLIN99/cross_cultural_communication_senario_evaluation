@@ -1,3 +1,0 @@
-<<gender1>> (<<nationality1>>): "I looked over my contract, and I think there may be a mistake in the benefits sections."
-
-<<gender2>> (<<nationality2>>): "Thanks for letting me know. I will have someone in HR look at it and see if there is anything that can be done."

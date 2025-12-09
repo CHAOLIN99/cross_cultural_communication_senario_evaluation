@@ -1,3 +1,0 @@
-<<gender1>> (<<nationality1>>): "Hey, let’s sign up for the competition on Friday. I think we have the skills to win this."
-
-<<gender2>> (<<nationality2>>): "I don’t think that’s a good idea. I’m a little unclear about the guidelines, so I am not sure whether our project is a good fit. Honestly, entering a project that’s not appropriate would just make us look unprofessional. If you want to take this seriously, we should spend more time looking for the best fit."
