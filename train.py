@@ -41,23 +41,147 @@ print(f"Using device: {config.DEVICE}")
 # ===========================
 # 2. LOAD AND SPLIT DATASET
 # ===========================
+def explore_dataset(df, text_col, label_col):
+    """
+    Print detailed statistics about the dataset.
+    """
+    print("\n" + "="*60)
+    print("DATASET EXPLORATION")
+    print("="*60)
+    
+    # Basic stats
+    print(f"\nTotal samples: {len(df)}")
+    print(f"Number of features: {len(df.columns)}")
+    
+    # Show demographic columns if available
+    demographic_cols = ['gender1', 'gender2', 'nationality1', 'nationality2', 
+                       'age_group1', 'age_group2']
+    available_demographics = [col for col in demographic_cols if col in df.columns]
+    
+    if available_demographics:
+        print(f"\nDemographic features available: {available_demographics}")
+        
+        # Show unique values for key demographics
+        if 'nationality1' in df.columns:
+            nationalities = pd.concat([df['nationality1'], df['nationality2']]).unique()
+            print(f"  Nationalities: {len(nationalities)} unique ({', '.join(nationalities[:5])}...)")
+        
+        if 'gender1' in df.columns:
+            genders = df['gender1'].value_counts()
+            print(f"  Gender distribution (sender):")
+            for gender, count in genders.items():
+                print(f"    {gender}: {count} ({count/len(df)*100:.1f}%)")
+    
+    # Label distribution
+    print(f"\nLabel distribution:")
+    label_counts = df[label_col].value_counts()
+    for label, count in label_counts.items():
+        percentage = (count / len(df)) * 100
+        label_name = "Violation" if label == 1 else "No Violation"
+        print(f"  {label_name} ({label}): {count} samples ({percentage:.1f}%)")
+    
+    # Class balance check
+    if len(label_counts) == 2:
+        imbalance_ratio = label_counts.max() / label_counts.min()
+        if imbalance_ratio > 1.5:
+            print(f"  ⚠️  Dataset is imbalanced (ratio: {imbalance_ratio:.2f}:1)")
+        else:
+            print(f"  ✓ Dataset is balanced (ratio: {imbalance_ratio:.2f}:1)")
+    
+    # Text length statistics
+    text_lengths = df[text_col].str.len()
+    print(f"\nText length statistics:")
+    print(f"  Mean: {text_lengths.mean():.0f} characters")
+    print(f"  Median: {text_lengths.median():.0f} characters")
+    print(f"  Min: {text_lengths.min()} characters")
+    print(f"  Max: {text_lengths.max()} characters")
+    
+    # Check for demographic placeholders
+    sample_text = df[text_col].iloc[0]
+    has_placeholders = '<<gender' in sample_text or '<<nationality' in sample_text
+    
+    if has_placeholders:
+        print(f"\n✓ Scenarios use placeholder format: <<gender1>> (<<nationality1>>)")
+    
+    print("\nSample scenarios:")
+    print("-" * 60)
+    # Show one violation and one non-violation example
+    for label in [0, 1]:
+        sample = df[df[label_col] == label].iloc[0] if len(df[df[label_col] == label]) > 0 else None
+        if sample is not None:
+            label_name = "VIOLATION" if label == 1 else "NO VIOLATION"
+            print(f"\nExample {label_name}:")
+            scenario_text = sample[text_col]
+            print(scenario_text[:350] if len(scenario_text) > 350 else scenario_text)
+            if len(scenario_text) > 350:
+                print("... (truncated)")
+            
+            # Show demographics if available
+            if 'nationality1' in df.columns:
+                print(f"Demographics: {sample['gender1']} ({sample['nationality1']}) ↔ "
+                      f"{sample['gender2']} ({sample['nationality2']})")
+    print("-" * 60)
+    print("="*60)
+
 def load_and_split_data(csv_path):
     """
     Load dataset and split into train/val/test sets.
     
-    Expected CSV columns:
-    - 'scenario_text' or 'text': the scenario description
-    - 'label' or 'violation': binary label (0=no violation, 1=violation)
+    Expected CSV structure (Weng et al. format):
+    - 'scenario': the conversation with demographic placeholders
+    - 'result': 'Yes' or 'No' indicating violation
+    - Additional columns: gender1, gender2, nationality1, nationality2, etc.
     """
     print(f"\nLoading dataset from {csv_path}...")
     df = pd.read_csv(csv_path)
     
-    # Identify text and label columns (adjust if your columns have different names)
-    text_col = 'scenario_text' if 'scenario_text' in df.columns else 'text'
-    label_col = 'label' if 'label' in df.columns else 'violation'
+    print(f"Available columns: {df.columns.tolist()}")
     
+    # Identify text column (try common variations)
+    text_col = None
+    for col in ['scenario', 'scenario_text', 'text', 'conversation']:
+        if col in df.columns:
+            text_col = col
+            break
+    
+    if text_col is None:
+        raise ValueError(f"Could not find text column. Available columns: {df.columns.tolist()}")
+    
+    # Identify label column and convert to binary
+    label_col = None
+    for col in ['result', 'violation', 'label', 'has_violation', 'is_violation']:
+        if col in df.columns:
+            label_col = col
+            break
+    
+    if label_col is None:
+        raise ValueError(f"Could not find label column. Available columns: {df.columns.tolist()}")
+    
+    # Convert 'Yes'/'No' to binary labels (1/0)
+    if df[label_col].dtype == 'object':
+        print(f"\nConverting '{label_col}' from text to binary labels...")
+        # Map Yes->1 (violation), No->0 (no violation)
+        label_map = {'Yes': 1, 'yes': 1, 'YES': 1, 
+                     'No': 0, 'no': 0, 'NO': 0}
+        df['binary_label'] = df[label_col].map(label_map)
+        
+        # Check for unmapped values
+        unmapped = df['binary_label'].isna().sum()
+        if unmapped > 0:
+            print(f"Warning: {unmapped} labels could not be mapped. Unique values: {df[label_col].unique()}")
+            df = df.dropna(subset=['binary_label'])
+        
+        label_col = 'binary_label'
+    
+    print(f"\nUsing text column: '{text_col}'")
+    print(f"Using label column: '{label_col}'")
     print(f"Dataset shape: {df.shape}")
-    print(f"Label distribution:\n{df[label_col].value_counts()}")
+    print(f"\nFirst scenario preview:")
+    print(f"{df[text_col].iloc[0][:300]}...")
+    print(f"\nLabel distribution:\n{df[label_col].value_counts()}")
+    
+    # Explore the dataset
+    explore_dataset(df, text_col, label_col)
     
     # First split: 70% train, 30% temp
     train_df, temp_df = train_test_split(
