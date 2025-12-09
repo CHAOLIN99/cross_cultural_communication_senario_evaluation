@@ -1,0 +1,3 @@
+<<name1>> (<<nationality1>>): "Hey, how's everything going! Do you want to come to my house and talk about what has been going on with your life?"
+
+<<name2>> (<<nationality2>>): "No, thank you. I am doing really well right now."

@@ -1,0 +1,3 @@
+<<name1>> (<<nationality1>>): "Hey, <<name2>>! I'm going to go to the park. Want to come with me?"
+
+<<name2>> (<<nationality2>>): "No, I'm not feeling like it."

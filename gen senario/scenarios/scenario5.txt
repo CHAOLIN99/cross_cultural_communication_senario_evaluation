@@ -1,0 +1,3 @@
+<<gender1>> (<<nationality1>>): "I looked over the contract human resources sent me, and I think there may be a mistake in the benefits sections."
+
+<<gender2>> (<<nationality2>>): "I trust the human resources supervisor’s expertise, and I won’t question the accuracy of their work."

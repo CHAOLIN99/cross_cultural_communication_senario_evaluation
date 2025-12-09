@@ -1,0 +1,3 @@
+<<gender1>> (<<nationality1>>): "Hey, let's sign up for the competition on Friday. I think we have the skills to win this."
+
+<<gender2>> (<<nationality2>>): "I like your confidence, but I think we should take some time to look at past projects and make sure ours is a good fit."

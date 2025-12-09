@@ -1,0 +1,5 @@
+In the following scenario, the first person is <<gender1>>, is from <<nationality1>>, and is <<age_group1>> years old. The second person is <<gender2>>, is from <<nationality2>>, and is <<age_group2>> years old.
+
+<<scenario>>
+
+Consider the interaction between the two individuals and respond with a single word to indicate whether a cross-cultural violation has occurred.

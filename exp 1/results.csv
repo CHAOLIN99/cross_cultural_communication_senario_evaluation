@@ -1,0 +1,125 @@
+,prompt,secondary_prompt,name1,name2,age1,age2,nationality1,nationality2,scenario,result,misunderstanding_present,secondary_result,cultural_dimension
+0,"In the following scenario, Luca is from Argentina, and is 20 years old. Emily is from Argentina, and is 20 years old.
+
+Luca (Argentina): ""Hey, how's everything going! Do you want to come to my house and talk about what has been going on with your life?""
+
+Emily (Argentina): ""No, thank you. I am doing really well right now.""
+
+
+Consider the interaction between Luca and Emily and respond with a single word to indicate whether a cross-cultural violation has occurred.
+","Now consider the nature of the cross-cultural violation. Which cultural dimension would you say is responsible?
+",Luca,Emily,20,20,Argentina,Argentina,"<<name1>> (<<nationality1>>): ""Hey, how's everything going! Do you want to come to my house and talk about what has been going on with your life?""
+
+<<name2>> (<<nationality2>>): ""No, thank you. I am doing really well right now.""
+",No,False,Not applicable,none
+1,"In the following scenario, Luca is from Argentina, and is 20 years old. Emily is from Argentina, and is 20 years old.
+
+Luca (Argentina): ""Hey, Emily, I heard one of our classmates is sick and struggling with class. I was thinking of baking some cookies and bringing them over tomorrow, but I have an essay due tonight, so I’ll probably just drop them off quickly. Want to help out?""
+
+Emily (Argentina): ""Hmm, I think it's better to visit her and let her know we care. I also have something due tonight, but I am just going to do it later.""
+
+
+Consider the interaction between Luca and Emily and respond with a single word to indicate whether a cross-cultural violation has occurred.
+","Now consider the nature of the cross-cultural violation. Which cultural dimension would you say is responsible?
+",Luca,Emily,20,20,Argentina,Argentina,"<<name1>> (<<nationality1>>): ""Hey, Emily, I heard one of our classmates is sick and struggling with class. I was thinking of baking some cookies and bringing them over tomorrow, but I have an essay due tonight, so I’ll probably just drop them off quickly. Want to help out?""
+
+<<name2>> (<<nationality2>>): ""Hmm, I think it's better to visit her and let her know we care. I also have something due tonight, but I am just going to do it later.""
+",No,False,Not applicable,none
+2,"In the following scenario, Luca is from Argentina, and is 20 years old. Emily is from Argentina, and is 20 years old.
+
+Luca (Argentina): ""Hey, Emily! I'm going to go to the park. Want to come with me?""
+
+Emily (Argentina): ""No, I'm not feeling like it.""
+
+Consider the interaction between Luca and Emily and respond with a single word to indicate whether a cross-cultural violation has occurred.
+","Now consider the nature of the cross-cultural violation. Which cultural dimension would you say is responsible?
+",Luca,Emily,20,20,Argentina,Argentina,"<<name1>> (<<nationality1>>): ""Hey, <<name2>>! I'm going to go to the park. Want to come with me?""
+
+<<name2>> (<<nationality2>>): ""No, I'm not feeling like it.""",No,False,Not applicable,none
+3,"In the following scenario, Luca is from Argentina, and is 20 years old. Emily is from Germany, and is 20 years old.
+
+Luca (Argentina): ""Hey, how's everything going! Do you want to come to my house and talk about what has been going on with your life?""
+
+Emily (Germany): ""No, thank you. I am doing really well right now.""
+
+
+Consider the interaction between Luca and Emily and respond with a single word to indicate whether a cross-cultural violation has occurred.
+","Now consider the nature of the cross-cultural violation. Which cultural dimension would you say is responsible?
+",Luca,Emily,20,20,Argentina,Germany,"<<name1>> (<<nationality1>>): ""Hey, how's everything going! Do you want to come to my house and talk about what has been going on with your life?""
+
+<<name2>> (<<nationality2>>): ""No, thank you. I am doing really well right now.""
+",No,False,Not applicable,none
+4,"In the following scenario, Luca is from Argentina, and is 20 years old. Emily is from Germany, and is 20 years old.
+
+Luca (Argentina): ""Hey, Emily, I heard one of our classmates is sick and struggling with class. I was thinking of baking some cookies and bringing them over tomorrow, but I have an essay due tonight, so I’ll probably just drop them off quickly. Want to help out?""
+
+Emily (Germany): ""Hmm, I think it's better to visit her and let her know we care. I also have something due tonight, but I am just going to do it later.""
+
+
+Consider the interaction between Luca and Emily and respond with a single word to indicate whether a cross-cultural violation has occurred.
+","Now consider the nature of the cross-cultural violation. Which cultural dimension would you say is responsible?
+",Luca,Emily,20,20,Argentina,Germany,"<<name1>> (<<nationality1>>): ""Hey, Emily, I heard one of our classmates is sick and struggling with class. I was thinking of baking some cookies and bringing them over tomorrow, but I have an essay due tonight, so I’ll probably just drop them off quickly. Want to help out?""
+
+<<name2>> (<<nationality2>>): ""Hmm, I think it's better to visit her and let her know we care. I also have something due tonight, but I am just going to do it later.""
+",No,False,Uncertainty Avoidance,uncertainty avoidance
+5,"In the following scenario, Luca is from Argentina, and is 20 years old. Emily is from Germany, and is 20 years old.
+
+Luca (Argentina): ""Hey, Emily! I'm going to go to the park. Want to come with me?""
+
+Emily (Germany): ""No, I'm not feeling like it.""
+
+Consider the interaction between Luca and Emily and respond with a single word to indicate whether a cross-cultural violation has occurred.
+","Now consider the nature of the cross-cultural violation. Which cultural dimension would you say is responsible?
+",Luca,Emily,20,20,Argentina,Germany,"<<name1>> (<<nationality1>>): ""Hey, <<name2>>! I'm going to go to the park. Want to come with me?""
+
+<<name2>> (<<nationality2>>): ""No, I'm not feeling like it.""",No,False,N/A,none
+6,"In the following scenario, Luca is from Argentina, and is 20 years old. Emily is from United States, and is 20 years old.
+
+Luca (Argentina): ""Hey, how's everything going! Do you want to come to my house and talk about what has been going on with your life?""
+
+Emily (United States): ""No, thank you. I am doing really well right now.""
+
+
+Consider the interaction between Luca and Emily and respond with a single word to indicate whether a cross-cultural violation has occurred.
+","Now consider the nature of the cross-cultural violation. Which cultural dimension would you say is responsible?
+",Luca,Emily,20,20,Argentina,United States,"<<name1>> (<<nationality1>>): ""Hey, how's everything going! Do you want to come to my house and talk about what has been going on with your life?""
+
+<<name2>> (<<nationality2>>): ""No, thank you. I am doing really well right now.""
+",No,False,N/A,none
+7,"In the following scenario, Luca is from Argentina, and is 20 years old. Emily is from United States, and is 20 years old.
+
+Luca (Argentina): ""Hey, Emily, I heard one of our classmates is sick and struggling with class. I was thinking of baking some cookies and bringing them over tomorrow, but I have an essay due tonight, so I’ll probably just drop them off quickly. Want to help out?""
+
+Emily (United States): ""Hmm, I think it's better to visit her and let her know we care. I also have something due tonight, but I am just going to do it later.""
+
+
+Consider the interaction between Luca and Emily and respond with a single word to indicate whether a cross-cultural violation has occurred.
+","Now consider the nature of the cross-cultural violation. Which cultural dimension would you say is responsible?
+",Luca,Emily,20,20,Argentina,United States,"<<name1>> (<<nationality1>>): ""Hey, Emily, I heard one of our classmates is sick and struggling with class. I was thinking of baking some cookies and bringing them over tomorrow, but I have an essay due tonight, so I’ll probably just drop them off quickly. Want to help out?""
+
+<<name2>> (<<nationality2>>): ""Hmm, I think it's better to visit her and let her know we care. I also have something due tonight, but I am just going to do it later.""
+",No,False,There is not enough information given in the scenario to identify a cross-cultural violation.,none
+8,"In the following scenario, Luca is from Argentina, and is 20 years old. Emily is from United States, and is 20 years old.
+
+Luca (Argentina): ""Hey, Emily! I'm going to go to the park. Want to come with me?""
+
+Emily (United States): ""No, I'm not feeling like it.""
+
+Consider the interaction between Luca and Emily and respond with a single word to indicate whether a cross-cultural violation has occurred.
+","Now consider the nature of the cross-cultural violation. Which cultural dimension would you say is responsible?
+",Luca,Emily,20,20,Argentina,United States,"<<name1>> (<<nationality1>>): ""Hey, <<name2>>! I'm going to go to the park. Want to come with me?""
+
+<<name2>> (<<nationality2>>): ""No, I'm not feeling like it.""",No,False,There was no cross-cultural violation in the given scenario.,none
+9,"In the following scenario, Luca is from Argentina, and is 20 years old. Emily is from India, and is 20 years old.
+
+Luca (Argentina): ""Hey, how's everything going! Do you want to come to my house and talk about what has been going on with your life?""
+
+Emily (India): ""No, thank you. I am doing really well right now.""
+
+
+Consider the interaction between Luca and Emily and respond with a single word to indicate whether a cross-cultural violation has occurred.
+","Now consider the nature of the cross-cultural violation. Which cultural dimension would you say is responsible?
+",Luca,Emily,20,20,Argentina,India,"<<name1>> (<<nationality1>>): ""Hey, how's everything going! Do you want to come to my house and talk about what has been going on with your life?""
+
+<<name2>> (<<nationality2>>): ""No, thank you. I am doing really well right now.""
+",No,False,Not applicable,none
