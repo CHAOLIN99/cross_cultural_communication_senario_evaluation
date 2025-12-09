@@ -212,12 +212,36 @@ def load_and_split_data(csv_path):
     explore_dataset(df, text_col, label_col)
     
     # Check if we have enough samples for stratification
-    min_class_count = df[label_col].value_counts().min()
+    label_counts = df[label_col].value_counts()
+    print(f"\nLabel counts: {label_counts.to_dict()}")
+    
+    # Check if dataset has only one class
+    if len(label_counts) == 1:
+        print("\n" + "="*60)
+        print("⚠️  CRITICAL WARNING: Dataset has only ONE class!")
+        print("="*60)
+        print(f"All {len(df)} samples have label: {label_counts.index[0]}")
+        print("\nThis means:")
+        print("  • No violations detected in your dataset")
+        print("  • The model cannot learn to distinguish classes")
+        print("  • Training will result in a trivial classifier")
+        print("\nPossible solutions:")
+        print("  1. Check if your data loading is correct")
+        print("  2. Verify the 'result' column contains both 'Yes' and 'No'")
+        print("  3. Use a different/larger dataset with both classes")
+        print("="*60)
+        
+        response = input("\nDo you want to continue anyway? (yes/no): ").lower()
+        if response != 'yes':
+            print("Exiting...")
+            exit()
+    
+    min_class_count = label_counts.min()
     print(f"\nSmallest class has {min_class_count} samples")
     
     # Calculate minimum samples needed for stratified split
     # We need at least 2 samples per class in each split
-    min_samples_needed = 2 / config.TEST_SIZE  # ~14 samples minimum
+    min_samples_needed = 2 / config.TEST_RATIO  # ~14 samples minimum
     
     if min_class_count < min_samples_needed:
         print(f"⚠️  Warning: Small dataset. Stratification may not be possible.")
@@ -325,39 +349,50 @@ def get_or_compute_embeddings(train_df, val_df, test_df, text_col, cache_path):
     try:
         print(f"\nTrying to load cached embeddings from {cache_path}...")
         cache = torch.load(cache_path)
-        print("Successfully loaded cached embeddings!")
-        return cache['train'], cache['val'], cache['test']
+        
+        # Verify cache matches current data split sizes
+        if (cache['train'].shape[0] == len(train_df) and 
+            cache['val'].shape[0] == len(val_df) and 
+            cache['test'].shape[0] == len(test_df)):
+            print("✓ Successfully loaded cached embeddings!")
+            return cache['train'], cache['val'], cache['test']
+        else:
+            print("⚠️  Cache size mismatch. Recomputing embeddings...")
+            
     except FileNotFoundError:
         print("Cache not found. Computing embeddings...")
-        
-        # Load model and tokenizer
-        tokenizer = AutoTokenizer.from_pretrained(config.MODEL_NAME)
-        model = AutoModelForCausalLM.from_pretrained(config.MODEL_NAME)
-        
-        # Set pad token
-        if tokenizer.pad_token is None:
-            tokenizer.pad_token = tokenizer.eos_token
-        
-        # Extract embeddings
-        train_embeddings = extract_embeddings(
-            train_df[text_col].tolist(), model, tokenizer, config.DEVICE
-        )
-        val_embeddings = extract_embeddings(
-            val_df[text_col].tolist(), model, tokenizer, config.DEVICE
-        )
-        test_embeddings = extract_embeddings(
-            test_df[text_col].tolist(), model, tokenizer, config.DEVICE
-        )
-        
-        # Cache embeddings
-        print(f"\nSaving embeddings to {cache_path}...")
-        torch.save({
-            'train': train_embeddings,
-            'val': val_embeddings,
-            'test': test_embeddings
-        }, cache_path)
-        
-        return train_embeddings, val_embeddings, test_embeddings
+    except Exception as e:
+        print(f"Error loading cache: {e}. Recomputing embeddings...")
+    
+    # Load model and tokenizer
+    tokenizer = AutoTokenizer.from_pretrained(config.MODEL_NAME)
+    model = AutoModelForCausalLM.from_pretrained(config.MODEL_NAME)
+    
+    # Set pad token
+    if tokenizer.pad_token is None:
+        tokenizer.pad_token = tokenizer.eos_token
+    
+    # Extract embeddings
+    train_embeddings = extract_embeddings(
+        train_df[text_col].tolist(), model, tokenizer, config.DEVICE
+    )
+    val_embeddings = extract_embeddings(
+        val_df[text_col].tolist(), model, tokenizer, config.DEVICE
+    )
+    test_embeddings = extract_embeddings(
+        test_df[text_col].tolist(), model, tokenizer, config.DEVICE
+    )
+    
+    # Cache embeddings
+    print(f"\nSaving embeddings to {cache_path}...")
+    torch.save({
+        'train': train_embeddings,
+        'val': val_embeddings,
+        'test': test_embeddings
+    }, cache_path)
+    print("✓ Embeddings cached successfully!")
+    
+    return train_embeddings, val_embeddings, test_embeddings
 
 # ===========================
 # 4. MLP PROBE MODEL
@@ -474,16 +509,36 @@ def evaluate_model(model, test_loader, config):
             all_preds.extend(predicted.cpu().numpy())
             all_labels.extend(labels.numpy())
     
-    # Calculate metrics
-    accuracy = accuracy_score(all_labels, all_preds)
-    precision, recall, f1, _ = precision_recall_fscore_support(
-        all_labels, all_preds, average='binary'
-    )
+    # Check if we have both classes in predictions and labels
+    unique_labels = np.unique(all_labels)
+    unique_preds = np.unique(all_preds)
     
-    # Calculate specificity (True Negative Rate)
-    cm = confusion_matrix(all_labels, all_preds)
-    tn, fp, fn, tp = cm.ravel()
-    specificity = tn / (tn + fp)
+    print(f"\nUnique labels in test set: {unique_labels}")
+    print(f"Unique predictions: {unique_preds}")
+    
+    # Calculate metrics with zero_division parameter
+    accuracy = accuracy_score(all_labels, all_preds)
+    
+    # Handle single-class case
+    if len(unique_labels) == 1:
+        print("\n⚠️  Warning: Test set contains only one class!")
+        precision = recall = f1 = 1.0 if unique_preds[0] == unique_labels[0] else 0.0
+        specificity = 0.0
+        cm = confusion_matrix(all_labels, all_preds, labels=[0, 1])
+    else:
+        precision, recall, f1, _ = precision_recall_fscore_support(
+            all_labels, all_preds, average='binary', zero_division=0
+        )
+        
+        # Calculate confusion matrix with explicit labels
+        cm = confusion_matrix(all_labels, all_preds, labels=[0, 1])
+        
+        # Calculate specificity
+        if cm.shape == (2, 2):
+            tn, fp, fn, tp = cm.ravel()
+            specificity = tn / (tn + fp) if (tn + fp) > 0 else 0.0
+        else:
+            specificity = 0.0
     
     results = {
         'accuracy': accuracy,
