@@ -16,7 +16,7 @@ import json
 # ===========================
 class Config:
     MODEL_NAME = "openai-community/gpt2"
-    DATASET_PATH = "scenarios.csv"  # Update with your actual path
+    DATASET_PATH = "results_1000.csv"  # Update with your actual path
     EMBEDDING_CACHE = "embeddings_cache.pt"
     
     # Training parameters (auto-adjusted based on dataset size)
@@ -27,12 +27,12 @@ class Config:
     DROPOUT = 0.3
     
     # Data split ratios (configurable)
-    TRAIN_RATIO = 0.70  # 70% for training
-    VAL_RATIO = 0.15    # 15% for validation
-    TEST_RATIO = 0.15   # 15% for testing
+    TRAIN_RATIO = 0.70  # 50% for training
+    VAL_RATIO = 0.15    # 25% for validation
+    TEST_RATIO = 0.15   # 25% for testing
     RANDOM_SEED = 42
     
-    # Device
+    # Device                                                                                                                                                                                                                                                 
     DEVICE = torch.device('mps' if torch.backends.mps.is_available() else 'cpu')
     
     @classmethod
