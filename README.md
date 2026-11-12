@@ -1,33 +1,58 @@
-Project Proposal
-Goal
-Quantitatively compare multiple generations of transformer-based language models (GPT-2, GPT-3, GPT-4, and
-GPT-5 if available) on their ability to detect cross-cultural communication norm violations. The project includes a
-deep-learning component: training a lightweight neural probe (MLP) on model embeddings to evaluate
-representational quality and improve detection performance.
-Dataset
-Use the labeled scenario dataset from Weng et al. (UMAP ’25) — 512 scenarios with gold labels (violation / no
-violation), varying sender/receiver nationality, age, and gender. The dataset is preformatted for classification and
-suitable for both zero-shot evaluation and training.
-Approach
-1. Zero-Shot Evaluation
-Query GPT models (GPT-2 locally; GPT-3/4/5 via OpenAI API) with:
-“Does this interaction contain a cross-cultural communication norm violation? Respond ‘Yes’ or ‘No.’”
-Map responses to binary labels and compare accuracy across models.
-2. Deep-Learning Component
-Extract embeddings using a small transformer (e.g., distilbert-base-uncased or gpt2-small) on MacBook M2 Air.
-Train a small MLP classifier on these embeddings to predict violations (train/val/test split: 70/15/15).
-Evaluate performance using accuracy, precision, recall, specificity, and F1.
-3. Statistical Analysis
-Use chi-square and ANOVA/Kruskal-Wallis tests to compare model performance across demographic pairings.
-Report effect sizes and p-values.
-Measures of Success
-Reproduce GPT-4 baseline trends from Weng et al.
-Detect statistically significant performance differences between models.
-Successfully train and evaluate the MLP probe.
-Demonstrate insights into representation quality or improvements over baseline classifiers.
-Resources
-Hardware: MacBook M2 Air (sufficient for MLP training and small transformer inference).
-Software: Python, PyTorch, Hugging Face Transformers, scikit-learn, NumPy, Matplotlib.
-API Access: OpenAI API (funded by research lab).
-Dataset: Weng et al. (UMAP ’25) — already uploaded.
-Ethics: No human subjects; IRB exempt.
+# Cross-Cultural Communication Scenario Evaluation
+
+Can a language model tell when a conversation between two people from different cultures goes wrong? This project tests that question in two ways:
+
+1. **Zero-shot:** ask GPT models directly whether a scenario contains a cross-cultural communication norm violation.
+2. **Neural probe:** extract GPT-2 embeddings for each scenario and train a small MLP classifier on them, to see how much of this signal is already inside the model's representations.
+
+Scenarios vary the nationality, age group and gender of both people, and each one is labeled *violation* or *no violation*. The labeled scenarios build on the dataset from Weng et al. (UMAP '25).
+
+## Results (MLP probe on GPT-2 embeddings)
+
+Test set: 150 scenarios (70 / 15 / 15 train / validation / test split, seed 42).
+
+| Metric | Value |
+| --- | --- |
+| Accuracy | 0.84 |
+| Precision | 0.75 |
+| Recall | 0.99 |
+| F1 | 0.85 |
+| Specificity | 0.71 |
+
+The probe almost never misses a real violation (69 of 70 found), but it over-flags: 23 of 80 normal scenarios were marked as violations. In other words, the embeddings carry a strong signal, and the next step is reducing false alarms.
+
+![Confusion matrix](confusion_matrix.png)
+![Training curves](training_curves.png)
+
+## How it works
+
+`train.py` runs the full pipeline:
+
+1. Load a scenario CSV and split it into train, validation and test sets.
+2. Extract an embedding for each scenario from GPT-2 (`openai-community/gpt2`), using the last token's final hidden state, and cache them in `embeddings_cache.pt`.
+3. Train an MLP probe (hidden size 128, dropout 0.3, Adam, learning rate 1e-3, up to 50 epochs), keeping the best checkpoint by validation accuracy in `best_probe.pt`.
+4. Report accuracy, precision, recall, F1 and specificity in `results.json`, and save the plots.
+
+Batch size and network size adjust automatically to the dataset size.
+
+## Run it
+
+```bash
+python -m venv .venv && source .venv/bin/activate
+pip install -r requirements.txt
+python train.py
+```
+
+To use a different scenario file, change `DATASET_PATH` in the `Config` class at the top of `train.py`. The `results_*.csv` files hold scenario sets of different sizes (500 to 1,800).
+
+Runs on CPU or Apple Silicon (MPS).
+
+## Files
+
+| File | What it is |
+| --- | --- |
+| `train.py` | Data loading, embedding extraction, probe training and evaluation |
+| `results_*.csv` | Generated scenario sets with model answers and labels |
+| `results.json` | Test metrics for the latest run |
+| `best_probe.pt` | Trained probe weights |
+| `confusion_matrix.png`, `training_curves.png` | Plots from the latest run |
